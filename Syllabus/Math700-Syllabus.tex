@@ -1,0 +1,239 @@
+% Example LaTeX document for GP111 - note % sign indicates a comment
+\documentclass[12pt]{amsart}
+\usepackage[top=1.5cm, left=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
+
+% \addtolength{\hoffset}{-2.5cm}
+% \addtolength{\textwidth}{5cm}
+
+% \addtolength{\voffset}{-1.25cm}
+% \addtolength{\textheight}{2.5cm}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+            
+\pagestyle{empty}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{center} \textbf{Math 700 -- Linear Algebra -- Spring 2014}
+
+ \end{center}
+\vskip5mm
+
+\noindent {\bf Instructor:} Dr.~William DeMeo  \hfill {Phone: 777-7510}\\
+~\phantom{XX} \hfill {Email: \href{mailto:williamdemeo@gmail.com}{williamdemeo@gmail.com}}
+
+\noindent {\bf Office:} LeConte College, Room 314C \\
+
+\noindent {\bf Office Hours:} Wednesday, Thursday, Friday 11--12, and by appointment\\
+
+%\noindent {\bf Prerequisites:} Grades of C or better in both CSCE 146 and MATH 142.\\
+
+\noindent {\bf Text:} Peter Lax, \emph{Linear Algebra and Its Applications}, Wiley, New York, NY, 2007. \href{http://www.whfreeman.com/gersting}{www.whfreeman.com/gersting}. \\
+
+\noindent {\bf Topics:}
+<ol><li><b>Review of Fundamentals:</b>
+Linear Space, Isomorphism; Subspace; Linear Dependence; Basis, Dimension; Quotient Space
+</li>
+<li><b>Duality:</b> Linear Functions; Dual of a Linear Space; Annihilator; Codimension; Quadrature Formula.</li>
+</li>
+<li><b>Linear Mappings:</b> Domain and Target Space; Nullspace and Range; Fundamental Theorem; Underdetermined Linear Systems; Interpolation; Difference Equations; Algebra of Linear Mappings; Dimension of Nullspace and Range; Transposition; Similarity; Projections.
+</li>
+<li><b>Matrices:</b> Rows and Columns, Matrix Multiplication, Transposition, Rank, Gaussian Elimination
+</li>
+<li><b>Determinant and Trace:</b> Ordered Simplices; Signed Volume,  Determinant; Permutation Group; Formula for Determinant; Multiplicative Property; Laplace Expansion; Cramer's Rule; Trace</li>
+<li><b>Spectral Theory:</b> Iteration of Linear Maps; Eigenvalues, Eigenvectors; Fibonacci Sequence; Characteristic Polynomial; Trace and Determinant Revisited; Spectral Mapping Theorem; Cayley-Hamilton Theorem; Generalized Eigenvectors; Spectral Theorem; Minimal Polynomial; When Are Two Matrices Similar; Commuting Maps.</li>
+<li><b>Euclidean Structure:</b> Scalar Product, Distance; Schwarz Inequality; Orthonormal Basis; Gram-Schmidt; Orthogonal Complement; Orthogonal Projection; Adjoint; Overdetermined Systems; Isometry; The Orthogonal Group; Norm of a Linear Map; Completeness Local Compactness; Complex Euclidean Structure; Spectral Radius; Hilbert-Schmidt Norm; Cross Product.
+</li>
+<li><b>Spectral Theory of Self-Adjoint Mappings:</b> Quadratic Forms; Law of Inertia; Spectral Resolution; Commuting Maps; Anti-Self-Adjoint Maps; Normal Maps; Rayleigh Quotient; Minmax Principle; Norm and Eigenvalues.
+</li>
+<li><b>
+Calculus of Vector- and Matrix-Valued Functions:</b> Convergence in Norm; Rules of Differentiation, Derivative of det A(t), Matrix Exponential; Simple Eigenvalues; Multiple Eigenvalues; Rellich's Theorem; Avoidance of Crossing.
+</li>
+<li><b>Matrix Inequalities:</b> Positive Self-Adjoint Matrices;
+Monotone Matrix Functions;
+Gram Matrices;
+Schur's Theorem;
+The Determinant of Positive Matrices;
+Integral Formula for Determinants;
+Eigenvalues;
+Separation of Eigenvalues;
+Wielandt-Hoffman Theorem;
+Smallest and Largest Eigenvalue;
+Matrices with Positive Se]f-Adjoint Part;
+Polar Decomposition;
+Singular Values; 
+Singular Value Decomposition; 
+</li>
+</ol>
+And a selection of topic from the following, as time permits:
+<ul>
+<li><b>Convexity:</b>
+Convex Sets;
+Gauge Function;
+Hahn-Banach Theorem;
+Support Function;
+Caratheodory's Theorem;
+Konig-Birkhoff Theorem;
+Helly's Theorem.
+</li>
+<li><b>
+The Duality Theorem:</b>
+Farkas-Minkowski Theorem;
+Duality Theorem;
+Economics Interpretation;
+Minmax Theorem.
+</li>
+<li><b>
+Normed Linear Spaces:</b>
+Norm;
+l<sup>p</sup> Norms;
+Equivalence of Norms;
+Completeness; 
+Local Compactness;
+Theorem of F. Riesz;
+Dual Norm; 
+Distance from Subspace; 
+Normed Quotient Space; 
+Complex Normed Spaces; 
+Complex Hahn-Banach Theorem; 
+Characterization of Euclidean Spaces. 
+</li>
+<li><b>
+<b>Linear Mappings Between Normed Linear Spaces:</b>
+Norm of a Mapping;
+Norm of Transpose;
+Normed Algebra of Maps;
+Invertible Maps;
+Spectral Radius;
+</li>
+<li><b>
+Positive Matrices:</b>
+Perron's Theorem;
+Stochastic Matrices;
+Frobenius' Theorem;
+</li>
+<li><b>
+How to Calculate the Eigenvalues of Seif-Adjoint Matrices:</b>
+QR Factorization;
+Using the QR Factorization to Solve Systems of Equations;
+The QR Algorithm for Finding Eigenvalues; 
+Householder Reflection for OR Factorization;
+Tridiagonal Form; 
+Analogy of QR Algorithm and Toda Flow; 
+Moser's Theorem.
+</li>
+</ol>
+
+\noindent {\bf Class Meetings:} MW, 3:55--5:10, LeConte, Room 310. \\
+
+\noindent {\bf Exams:} There will be one mid-term exam during the semester, and will be scheduled as we progress. Notice of at least one week will be given prior to the date of a
+test. A comprehensive final exam will be held on .\\
+ 
+\noindent {\bf Homework:} Solving homework problems is the easiest, best, and perhaps only way
+to properly prepare for tests and quizzes.   Homework will be assigned and
+collected regularly, and selected problems from each set will be graded for
+correctness. Solutions are due by the end of class on the deadline date
+assigned, or can be left at my office \emph{earlier}. Late homework will not be
+accepted or graded. Your best ten homework assignments will be counted toward
+your grade. \\ 
+
+\noindent {\bf Quizzes:} We will have two quizzes, one after Chapter 1, covering
+material from that chapter, and one after Chapter 3, covering the material from
+that chapter.  \\
+
+\noindent {\bf Make-up Policy:} \emph{There will be no make-up homework or quizzes for any
+  reason.} If you must miss class for a legitimate reason, contact me prior to
+the class and we may be able to schedule a time \emph{before} the date in
+question. If you miss a test with a legitimate reason, you may come to me within
+one class meeting of the missed test and provide an explanation, in which case I might
+agree to replace the missed test score with 80\% of your final exam score.
+For example, if I accept your excuse and you score 90\% on the final, then I
+will give you 72\% on the missed test (0.80*0.90 = 0.72).\\
+
+\noindent {\bf Grading Scheme:} Each test will be worth 25 points, the final
+will be worth 30 points, each quiz will be worth 5 points, and homework will be worth 10 points, 
+The following scores will guarantee the following grades. I reserve the right to shift the scale at the end of the semester. All curving (if any) will occur at the end of the semester.
+
+$$ \begin{array}{ll}
+A&:  91 - 100 \\
+B+&: 87 - 91 \\
+B &: 81 - 87 \\
+C+&: 77 - 81 \\
+C &: 71 - 77 \\
+D+ &: 67 - 71 \\ 
+D &: 60 - 67 \\
+F &: 0 -60 
+\end{array}$$ \\
+    
+\noindent {\bf Course Website:}
+\url{http://williamdemeo.wordpress.com/teaching/math-374-fall-2013/}\\
+The course webpage will list the material covered, the assigned homework, test dates, and any
+supplemental material. It will be updated often as we progress through the
+material, so you should check it routinely.\\ 
+
+\noindent {\bf Course Content:} We will cover as much as time permits of the
+following topics: propositional and predicate logic; proof techniques; recursion
+and recurrence relations; sets and combinatorics; functions, relations and
+matrices, lattices, graphs and trees. Logic, proof techniques, and recursion provide the
+mathematical foundation for both writing a program and demonstrating its
+correctness. Sets, combinatorics, functions, relations, matrices and lattices comprise
+the most basic objects and relationships that are used in computer
+science. Graphs and trees can be used as models of many real world pheneomena,
+while also being amenable to computer programming. \\ 
+
+\noindent {\bf Learning Outcomes:} Students are expected to translate English
+sentences into predicates and vice versa. They will be able to evaluate truth
+values and verify tautologies using methods of logic and will be familiar with
+the principles of declarative programming languages. 
+
+Students will be able to write recursive algorithms, prove the correctness of
+simple algorithms, solve simple recurrences, and use mathematical induction, in
+particular, to show the correctness of loops. 
+
+Students will be able to use the concepts of relations, graphs and matrices to
+model real-life situations and to operate within the models they created. 
+  
+Students are, of course, expected to read the text after class. However, reading
+the next section \emph{before} class is also expected. This will help the
+students in seeing the outline of the current topic, giving familiarity with the
+basic concepts, and help in seeing the fine points of the lecture.\\ 
+
+
+\noindent {\bf Academic Honesty:} Cheating will not be tolerated in this
+course. Violations of this policy will be referred to and dealt with by the USC
+Office of Academic Integrity, in a  manner consistent with university
+regulations, which range from a warning to expulsion from the university. \\
+
+\noindent {\bf Electronics policy:} Please silence and refrain from using all
+electronic devices (phones, ipods, tablets, microwave ovens, etc.)  during class and exam periods.
+\\
+
+\noindent {\bf Some Important Dates:}\\
+Aug 22, Thu:	Classes begin\\
+Aug 28, Wed:	Last day to drop/add without a grade of “W” being recorded\\
+Sep 2, Mon:	Labor Day Holiday - no classes\\
+Sep 12, Thu:	Last day to apply for December graduation\\
+Oct 11, Fri:	Last day to drop a course or withdraw without a grade of “WF” being recorded\\
+Oct 17--18, Thu--Fri:	Fall break-no classes\\
+Nov 27--Dec 1, Wed--Sun:  Thanksgiving recess-no classes\\
+Dec 6, Fri: Last day of classes\\
+Dec 7, Sat: Reading day\\
+Dec 9--16, Mon--Mon:	Final Examinations.
+
+
+
+
+
+
+
+
+
+
+\end{document}
