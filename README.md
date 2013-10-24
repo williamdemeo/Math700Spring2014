@@ -1,6 +1,6 @@
 Math 700 . Linear Algebra . Spring 2014
 =======================================
-**Instructor:** Dr.~William DeMeo
+**Instructor:** William DeMeo
 <br/>
 **Email:** williamdemeo@gmail.com
 <br/>
@@ -10,15 +10,15 @@ Math 700 . Linear Algebra . Spring 2014
 <br/>
 **Main textbook:** 
 <br/>
-[The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), by Jonathan Golan  (3ed 2012)
+[The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), Jonathan Golan  (3ed 2012)
 <br/>
 **Other references:**
  <br/>
-[Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), by Peter Lax (2ed Wiley 2007)
+[Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax (2ed Wiley 2007)
  <br/>
-[Finite Dimensional Vector Spaces](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816), by Paul Halmos (2012 Martino Fine Books)
+[Finite Dimensional Vector Spaces](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816), Paul Halmos (2012 Martino Fine Books)
  <br/>
-[Advanced Linear Algebra](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780387728285&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FAdvanced-Linear-Algebra%2FSteven-Roman%2Fe%2F9780387728285), by Steven Roman.
+[Advanced Linear Algebra](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780387728285&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FAdvanced-Linear-Algebra%2FSteven-Roman%2Fe%2F9780387728285), Steven Roman.
 <br/>
 **Brief summary of course topics:** (from the catalog) Vector spaces, linear transformations, dual spaces, decompositions of spaces, and canonical forms.
 <br/>
@@ -60,20 +60,19 @@ Octave/Sage).
 1.  **Matrix Inequalities:** Positive Self-Adjoint Matrices; Monotone Matrix Functions; Gram Matrices; Schur's Theorem; The Determinant of Positive Matrices; Integral Formula for Determinants; Eigenvalues; Separation of Eigenvalues; Wielandt-Hoffman Theorem; Smallest and Largest Eigenvalue; Matrices with Positive Self-Adjoint Part; Polar Decomposition; Singular Values;  Singular Value Decomposition; 
 
 And a selection of topic from the following, as time permits and depending on students' interests:
-<ul>
-1.  **Convexity:** Convex Sets; Gauge Function; Hahn-Banach Theorem; Support
-Function; Caratheodory's Theorem; Konig-Birkhoff Theorem; Helly's Theorem. 
-1.  **The Duality Theorem:** Farkas-Minkowski Theorem; Duality Theorem;
++  **Convexity:** Convex Sets; Gauge Function; Hahn-Banach Theorem; Support
+Function; Caratheodory's Theorem; Konig-Birkhoff Theorem; Helly's Theorem.
++  **The Duality Theorem:** Farkas-Minkowski Theorem; Duality Theorem;
 Economics Interpretation; Minmax Theorem. 
-1.  **Normed Linear Spaces:** Norm; l<sup>p</sup> Norms; Equivalence of
++  **Normed Linear Spaces:** Norm; l<sup>p</sup> Norms; Equivalence of
 Norms; Completeness; Local Compactness; Theorem of F. Riesz; Dual Norm; Distance
 from Subspace;  Normed Quotient Space;  Complex Normed Spaces; Complex
 Hahn-Banach Theorem; Characterization of Euclidean Spaces. 
-1.  **Linear Mappings Between Normed Linear Spaces:** Norm of a Mapping; Norm
++  **Linear Mappings Between Normed Linear Spaces:** Norm of a Mapping; Norm
 of Transpose; Normed Algebra of Maps; Invertible Maps; Spectral Radius; 
-1.  **Positive Matrices:** Perron's Theorem; Stochastic Matrices; Frobenius'
++  **Positive Matrices:** Perron's Theorem; Stochastic Matrices; Frobenius'
 Theorem.
-1.  **How to Calculate the Eigenvalues of Self-Adjoint Matrices:** QR
++  **How to Calculate the Eigenvalues of Self-Adjoint Matrices:** QR
 Factorization; Using the QR Factorization to Solve Systems of Equations; The QR
 Algorithm for Finding Eigenvalues;  Householder Reflection for OR Factorization;
 Tridiagonal Form;  Analogy of QR Algorithm and Toda Flow;  Moser's Theorem.
