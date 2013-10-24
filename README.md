@@ -24,29 +24,30 @@ Math 700. Linear Algebra. Spring 2014.
 
 **Class meetings:** MW, 3:55--5:10, LeConte, Room 310.
 
-**Homework:** Solving homework problems is the easiest, best, and perhaps only way
+**Homework:** Solving problems is the best, perhaps only way
 to properly learn the material.  As we progress, I will distribute lists of
 good exercises to work on, either from the textbook or in handouts.  Students
-are expected to solve and submit as many solutions as possible.  50% of your grade will
-be based on how many correct solutions to exercises you submit.
+are expected to solve and submit as many solutions as possible.  55% of the
+course grade will be based on the number of correct, well written solutions
+submitted by the student. 
 
 **Exams:** There will be one mid-term exam worth 20% of the final course grade.
 It will be scheduled as we progress, and notice of at least one week will be
 given prior to the date of a test.  A final exam at the end of the semester will
-be worth 30% of the final course grade. I will be very specific about what topics
-will be covered on the exams, and the problems that appear will be drawn mostly
-from the homework problems.
+be worth 25% of the final course grade. I will be very specific about what topics
+will be covered on the exams, and the problems that appear will be drawn primarily
+from the collection of homework problems.
 
-**Course topics in more detail:** This is a beginning graduate level treatment of linear algebra in
-which we focus on finite dimensional vector spaces from a more general point of
-view than you might have seen in an undergraduate class.  Below is a detailed
-list of some of the topics we will cover (essentially the first 172 pages of
-Lax's book, plus additional topics depending on students' interests).  In
-addition to these topics, we will cover vector spaces over finite fields, the
-Jordan canonical form and Smith normal form.  Depending on student interest, we
-might also spend some time demonstrating and applying the theory using computer
-algebra software (like Sage) and numerical software (like Matlab or
-Octave/Sage). 
+**Course topics in more detail:** This course is a beginning graduate level treatment
+of linear algebra in which we focus on finite dimensional vector spaces from a
+more general point of view than you might have seen in an undergraduate class.
+Below is a detailed list of some of the topics we will cover (essentially the
+first 172 pages of Lax's book, plus additional topics depending on students'
+interests).  In addition to these topics, we will cover vector spaces over
+finite fields, the Jordan canonical form and Smith normal form.  Depending on
+student interest, we might also spend some time demonstrating and applying the
+theory using computer algebra software (like Sage) and numerical software (like
+Matlab or Octave/Sage). 
 
 1.  **Review of Fundamentals:** Linear Space, Isomorphism; Subspace; Linear Dependence; Basis, Dimension; Quotient Space.
 2.  **Duality:** Linear Functions; Dual of a Linear Space; Annihilator; Codimension; Quadrature Formula.</li>
