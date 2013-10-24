@@ -1,5 +1,5 @@
-Math 700. Linear Algebra. Spring 2014.
-======================================
+Math 700: Linear Algebra, Spring 2014
+=====================================
 **Instructor:** William DeMeo
 
 **Email:** williamdemeo@gmail.com
@@ -14,9 +14,9 @@ Math 700. Linear Algebra. Spring 2014.
 
 **Other references:**
  <br/>
-[Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax (2ed Wiley 2007)
+[Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax.
  <br/>
-[Finite Dimensional Vector Spaces](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816), Paul Halmos (2012 Martino Fine Books)
+[Finite Dimensional Vector Spaces](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816), Paul Halmos.
  <br/>
 [Advanced Linear Algebra](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780387728285&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FAdvanced-Linear-Algebra%2FSteven-Roman%2Fe%2F9780387728285), Steven Roman.
 
