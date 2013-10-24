@@ -1,5 +1,5 @@
-Math 700 . Linear Algebra . Spring 2014
-=======================================
+Math 700. Linear Algebra. Spring 2014.
+======================================
 **Instructor:** William DeMeo
 
 **Email:** williamdemeo@gmail.com
