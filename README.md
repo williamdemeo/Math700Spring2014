@@ -1,5 +1,5 @@
-Math 700 -- Linear Algebra -- Spring 2014
-=========================================
+Math 700 . Linear Algebra . Spring 2014
+=======================================
 **Instructor:** Dr.~William DeMeo
 <br/>
 **Email:** williamdemeo@gmail.com
@@ -9,7 +9,8 @@ Math 700 -- Linear Algebra -- Spring 2014
 **Office hours:** Wednesday, Thursday, Friday 11--12, and by appointment
 <br/>
 **Main textbook:** 
-[The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), by Jonathan Golan  (3ed 2012 Springer)
+<br/>
+[The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), by Jonathan Golan  (3ed 2012)
 <br/>
 **Other references:**
  <br/>
