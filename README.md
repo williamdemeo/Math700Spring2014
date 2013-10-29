@@ -46,15 +46,14 @@ No prior programming experience is required for this course, and the computing c
 
 **Course topics in more detail:** 
 
-1.  Fields.
-2.  Vector spaces and algebras over a field, isomorphism theorems.
+1.  Fields, vector spaces and algebras over a field, isomorphism theorems.
 5.  Linear independence, basis, and dimension.
 6.  Linear transformations.
 7.  The endomorphism algebra of a vector space.
 8.  Representation of linear transformations by matrices.
-8.  Lattice of subspaces, invariant subspaces.
+8.  Lattices of subspaces and invariant subspaces.
 9.  Determinant and trace.
-9.  Spectral theory: eigenvalues, eigenvectors
+9.  Spectral theory: eigenvalues, eigenvectors.
 9.  Euclidean structure: orthonormal bases, norms, spectral radius.
 9.  Normed linear spaces and duality.
 9.  Spectral theory of self-adjoint mappings.
@@ -67,6 +66,7 @@ No prior programming experience is required for this course, and the computing c
 +  Moore-Penrose pseudoinverses.
 +  Bilinear transformations and forms.
 +  Matrix inequalities and decompositions.
++  Algebras of linear transformations, simultaneous triangularization.
 
 
 <!--
