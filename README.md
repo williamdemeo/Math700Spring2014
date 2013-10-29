@@ -8,8 +8,8 @@ Math 700: Linear Algebra, Spring 2014
 
 **Office hours:** Wednesday, Thursday, Friday 11--12, and by appointment
 
-**Main textbook:** 
-One textbook is required for this course.  (It will be either Golan or Lax; the final choice will be made very soon.)
+**Main textbook:** <br/>
+The primary textbook for the course will be Golan *or* Lax. The final choice will be made very soon.
 <br/>
 [The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), Jonathan Golan  (3ed 2012)
  <br/>
