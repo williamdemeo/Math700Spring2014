@@ -9,7 +9,7 @@ Math 700: Linear Algebra, Spring 2014
 **Office hours:** Wednesday, Thursday, Friday 11--12, and by appointment
 
 **Main textbook:** <br/>
-The primary textbook for the course will be Golan *or* Lax. The final choice will be made very soon.
+The primary textbook for the course will be *either* Golan *or* Lax. (The final choice will be made very soon.)
 <br/>
 [The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), Jonathan Golan.
  <br/>
@@ -42,7 +42,7 @@ will be covered on the exams, and many of the problems that appear will be drawn
 from the collection of homework problems.
 
 **Computing:**
-This is a graduate math course, so the it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the theory is to use the computer to experiment with and apply it. For this, we will rely on a number of programming languages, depending in part on student backgrounds and interests.  Most likely these will include Matlab/Octave, Sage/Python, C/LAPACK. *No prior programming experience is required for this course.*
+No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the theory is to use the computer to experiment with and apply it. For this, we will rely on a number of programming languages, depending in part on student backgrounds and interests.  Most likely these will include Matlab/Octave, Sage/Python, C/LAPACK. 
 
 **Course topics in more detail:** 
 Below is a list of some of the topics we will cover.  In addition to these, we will 
