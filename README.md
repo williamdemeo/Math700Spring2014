@@ -1,4 +1,11 @@
 <link href="style.css" type="text/css" rel="stylesheet"></link>
+<style type="text/css">
+	img.resize{
+	width:540px; /* you can use % */
+	height:auto;
+	}
+</style>
+	  
 Math 700: Linear Algebra, Spring 2014
 =====================================
 **Instructor:** Dr. William DeMeo
