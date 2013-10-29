@@ -45,8 +45,6 @@ from the collection of homework problems.
 No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the material is to use the computer to experiment with and apply the methods. For this, we will use a number of programming languages, depending in part on student backgrounds and interests.  These will most likely include Matlab/Octave, Sage/Python, and C/LAPACK. 
 
 **Course topics in more detail:** 
-Below is a list of some of the topics we will cover.  In addition to these, we will 
-cover vector spaces over finite fields, the 
 
 1.  Fields.
 2.  Vector spaces and algebras over a field, isomorphism theorems.
@@ -63,12 +61,12 @@ cover vector spaces over finite fields, the
 
 **Other topics (depending on time and student interest)**
 
-9.  Krylov subspaces.
-9.  Selfadjoint endomorphisms.
-9.  Unitary and normal endomorphisms.
-9.  Moore-Penrose pseudoinverses.
-9.  Bilinear transformations and forms.
-9.  Matrix inequalities and decompositions.
++  Krylov subspaces.
++  Selfadjoint endomorphisms.
++  Unitary and normal endomorphisms.
++  Moore-Penrose pseudoinverses.
++  Bilinear transformations and forms.
++  Matrix inequalities and decompositions.
 
 
 <!--
