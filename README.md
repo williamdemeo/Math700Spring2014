@@ -40,9 +40,7 @@ The main textbook for the course will be *either* Golan *or* Lax. (The final cho
 **Exams:** There will be one midterm exam worth 20% of the grade.
 It will be scheduled as we progress, and notice of at least one week will be
 given prior to the date of a test.  A final exam at the end of the semester will
-be worth 25% of the grade. I will be fairly specific about what topics
-will be covered on the exams, and many of the problems that appear will be drawn
-from the collection of homework problems.
+be worth 25% of the grade.
 
 **Computing:**
 No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the material is to use the computer to experiment with and apply the methods. For this we will use one or two different programming languages, depending in part on student backgrounds and interests, and most likely including Matlab/Octave, Sage/Python, and C/LAPACK. 
