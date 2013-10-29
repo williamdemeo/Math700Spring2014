@@ -8,47 +8,68 @@ Math 700: Linear Algebra, Spring 2014
 
 **Office hours:** Wednesday, Thursday, Friday 11--12, and by appointment
 
-**Main textbook:** 
+**Main textbook:** There will be one textbook required for this course, either Golan or Lax.  (The final choice will be made very soon.)
 <br/>
 [The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), Jonathan Golan  (3ed 2012)
+ <br/>
+[Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax.
 
 **Other references:**
  <br/>
-[Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax.
- <br/>
 [Finite Dimensional Vector Spaces](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816), Paul Halmos.
  <br/>
+[Matrix Analysis](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.2580521386329&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FMatrix-Analysis%2FRoger-A-Horn%2Fe%2F2580521386329), Horn and Johnson.
+<br/>
+<a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.2580521386329&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FMatrix-Analysis%2FRoger-A-Horn%2Fe%2F2580521386329"><IMG border=0 src="http://images.barnesandnoble.com/images/19810000/19815414.JPG" ></a><IMG border=0 width=1 height=1 src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.2580521386329&type=2&subid=0" >
+<br/>
 [Advanced Linear Algebra](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780387728285&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FAdvanced-Linear-Algebra%2FSteven-Roman%2Fe%2F9780387728285), Steven Roman.
 
-**Brief summary of course topics:** (from the catalog) Vector spaces, linear transformations, dual spaces, decompositions of spaces, and canonical forms.
+**Brief summary:** This course is a beginning graduate level treatment
+of linear algebra in which we focus on finite dimensional vector spaces from a
+more general point of view than you might have seen in an undergraduate class.  Some of the topics we cover are the following (from the catalog): Vector spaces, linear transformations, dual spaces, decompositions of spaces, and canonical forms.  A more detailed list of topics appears below.
 
 **Class meetings:** MW, 3:55--5:10, LeConte, Room 310.
 
-**Homework:** Solving problems is the best, perhaps only way
-to properly learn the material.  As we progress, I will distribute lists of
-good exercises to work on, either from the textbook or in handouts.  Students
-are expected to solve and submit as many solutions as possible.  55% of the
-course grade will be based on the number of correct, well written solutions
-submitted by the student. 
+**Homework:** Solving problems is the best way to learn this material.  As we progress, I will distribute lists of exercises, both from the textbook and other sources.  Students will be expected to solve and submit as many solutions as possible, and 55% of the grade will be based on the number of correct, well written solutions submitted.
 
-**Exams:** There will be one mid-term exam worth 20% of the final course grade.
+**Exams:** There will be one midterm exam worth 20% of the grade.
 It will be scheduled as we progress, and notice of at least one week will be
 given prior to the date of a test.  A final exam at the end of the semester will
-be worth 25% of the final course grade. I will be very specific about what topics
-will be covered on the exams, and the problems that appear will be drawn primarily
+be worth 25% of the grade. I will be fairly specific about what topics
+will be covered on the exams, and many of the problems that appear will be drawn
 from the collection of homework problems.
 
-**Course topics in more detail:** This course is a beginning graduate level treatment
-of linear algebra in which we focus on finite dimensional vector spaces from a
-more general point of view than you might have seen in an undergraduate class.
-Below is a detailed list of some of the topics we will cover (essentially the
-first 172 pages of Lax's book, plus additional topics depending on students'
-interests).  In addition to these topics, we will cover vector spaces over
-finite fields, the Jordan canonical form and Smith normal form.  Depending on
-student interest, we might also spend some time demonstrating and applying the
-theory using computer algebra software (like Sage) and numerical software (like
-Matlab or Octave/Sage). 
+**Computing:**
+This is a graduate math course, so the it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the theory is to use the computer to experiment with and apply it. For this, we will rely on a number of programming languages, depending in part on student backgrounds and interests.  Most likely these will include Matlab/Octave, Sage/Python, C/LAPACK. *No prior programming experience is required for this course.*
 
+**Course topics in more detail:** 
+Below is a list of some of the topics we will cover.  In addition to these, we will 
+cover vector spaces over finite fields, the 
+
+1.  Fields.
+2.  Vector spaces and algebras over a field, isomorphism theorems.
+5.  Linear independence, basis, and dimension.
+6.  Linear transformations.
+7.  The endomorphism algebra of a vector space.
+8.  Representation of linear transformations by matrices.
+8.  Lattice of subspaces, invariant subspaces.
+9.  Determinant and trace.
+9.  Spectral theory: eigenvalues, eigenvectors
+9.  Euclidean structure: orthonormal bases, norms, spectral radius.
+9.  Normed linear spaces and duality.
+9.  Spectral theory of self-adjoint mappings.
+
+**Other topics (depending on time and student interest)**
+
+9.  Krylov subspaces.
+9.  Selfadjoint endomorphisms.
+9.  Unitary and normal endomorphisms.
+9.  Moore-Penrose pseudoinverses.
+9.  Bilinear transformations and forms.
+9.  Matrix inequalities and decompositions.
+
+
+<!--
 1.  **Review of Fundamentals:** Linear Space, Isomorphism; Subspace; Linear Dependence; Basis, Dimension; Quotient Space.
 2.  **Duality:** Linear Functions; Dual of a Linear Space; Annihilator; Codimension; Quadrature Formula.</li>
 3.  **Linear Mappings:** Domain and Target Space; Nullspace and Range; Fundamental Theorem; Underdetermined Linear Systems; Interpolation; Difference Equations; Algebra of Linear Mappings; Dimension of Nullspace and Range; Transposition; Similarity; Projections.
@@ -77,6 +98,7 @@ Theorem.
 Factorization; Using the QR Factorization to Solve Systems of Equations; The QR
 Algorithm for Finding Eigenvalues;  Householder Reflection for OR Factorization;
 Tridiagonal Form;  Analogy of QR Algorithm and Toda Flow;  Moser's Theorem.
+-->
 
 **Course Website:**
 \url{http://williamdemeo.wordpress.com/teaching/math-700-spring-2014/}\\
