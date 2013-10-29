@@ -1,5 +1,8 @@
 Math 700: Linear Algebra, Spring 2014
 =====================================
+
+Basic info
+----------
 **Instructor:** Dr. William DeMeo
 
 **Email:** williamdemeo@gmail.com
@@ -8,7 +11,10 @@ Math 700: Linear Algebra, Spring 2014
 
 **Office hours:** Wednesday, Thursday, Friday 11--12, and by appointment
 
-**Main textbook:** <br/>
+**Class meeting times:** MW, 3:55--5:10, LeConte, Room 310.
+
+Textbook
+--------
 The main textbook for the course will be *either* Golan *or* Lax. (The final choice will be made very soon.)
 <br/>
 [The Linear Algebra a Beginning Graduate Student Ought to Know](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352), Jonathan Golan.
@@ -17,7 +23,6 @@ The main textbook for the course will be *either* Golan *or* Lax. (The final cho
 <br/>
 <!-- GOLAN -->
 <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352"><IMG border=0 src="http://images.barnesandnoble.com/images/229900000/229902005.JPG" ></a><IMG border=0 style="width: 50px;" src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9789400726352&type=2&subid=0" > <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564"><IMG border=0 src="http://images.barnesandnoble.com/images/218710000/218716309.JPG" ></a><IMG border=0 style="width: 50px;" src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9780471751564&type=2&subid=0" >
-
 
 **Other references:**
  <br/>
@@ -31,18 +36,24 @@ The main textbook for the course will be *either* Golan *or* Lax. (The final cho
 
 <!-- <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816"><IMG border=0 src="http://images.barnesandnoble.com/images/170670000/170671757.JPG" ></a><IMG border=0 width=1 height=1 src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9781614272816&type=2&subid=0" > <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.2580521386329&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FMatrix-Analysis%2FRoger-A-Horn%2Fe%2F2580521386329"><IMG border=0 src="http://images.barnesandnoble.com/images/19810000/19815414.JPG" ></a><IMG border=0 width=1 height=1 src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.2580521386329&type=2&subid=0" > <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780387728285&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FAdvanced-Linear-Algebra%2FSteven-Roman%2Fe%2F9780387728285"><IMG border=0 src="http://images.barnesandnoble.com/images/224350000/224357618.JPG" ></a><IMG border=0 width=1 height=1 src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9780387728285&type=2&subid=0" > -->
 
-**Brief overview:** This course in linear algebra is aimed at beginning graduate students in mathematics.  It is also appropriate for advanced undergraduate math majors, as well as graduate students in engineering and computer science.  The focus is on finite dimensional vector spaces from a more general point of view than one finds in an undergraduate course.  Some of the topics covered are the following (from the catalog): vector spaces, linear transformations, dual spaces, decompositions of spaces, canonical forms.  A more detailed list of topics appears below.
+Brief overview
+--------------
+This course in linear algebra is aimed at beginning graduate students in mathematics.  It is also appropriate for advanced undergraduate math majors, as well as graduate students in engineering and computer science.  The focus is on finite dimensional vector spaces from a more general point of view than one finds in an undergraduate course.  Some of the topics covered are the following (from the catalog): vector spaces, linear transformations, dual spaces, decompositions of spaces, canonical forms.  A more detailed list of topics appears below.
 
-**Class meetings:** MW, 3:55--5:10, LeConte, Room 310.
 
-**Homework:** Solving problems is the best way to learn this material.  A list of problems, both from the textbook and other sources, will be distributed and updated as the course progresses.  Students will solve and submit as many solutions as possible, and 55% of the grade will be based on the number of correct, well written solutions submitted.
+Homework
+--------
+Solving problems is the best way to learn this material.  A list of problems, both from the textbook and other sources, will be distributed and updated as the course progresses.  Students will solve and submit as many solutions as possible, and 55% of the grade will be based on the number of correct, well written solutions submitted.
 
-**Exams:** There will be one midterm exam worth 20% of the grade.
+Exams
+-----
+There will be one midterm exam worth 20% of the grade.
 It will be scheduled as we progress, and notice of at least one week will be
 given prior to the date of a test.  A final exam at the end of the semester will
 be worth 25% of the grade.
 
-**Computing:**
+Computing
+---------
 No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the material is to use the computer to experiment with and apply the methods. For this we will use one or two different programming languages, depending in part on student backgrounds and interests, and most likely including Matlab/Octave, Sage/Python, and C/LAPACK. 
 
 Course topics
