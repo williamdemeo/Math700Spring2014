@@ -42,19 +42,19 @@ will be covered on the exams, and many of the problems that appear will be drawn
 from the collection of homework problems.
 
 **Computing:**
-No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the material is to use the computer to experiment with and apply the methods. For this, we will use a number of programming languages, depending in part on student backgrounds and interests.  These will most likely include Matlab/Octave, Sage/Python, and C/LAPACK. 
+No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the material is to use the computer to experiment with and apply the methods. For this we will use one or two different programming languages, depending in part on student backgrounds and interests, and most likely including Matlab/Octave, Sage/Python, and C/LAPACK. 
 
 **Course topics in more detail:** 
 
 1.  Fields, vector spaces and algebras over a field, isomorphism theorems.
-5.  Linear independence, basis, and dimension.
+5.  Linear independence, basis and dimension.
 6.  Linear transformations.
 7.  The endomorphism algebra of a vector space.
 8.  Representation of linear transformations by matrices.
-8.  Lattices of subspaces and invariant subspaces.
+8.  Lattice of subspaces and invariant subspaces.
 9.  Determinant and trace.
 9.  Spectral theory: eigenvalues, eigenvectors.
-9.  Euclidean structure: orthonormal bases, norms, spectral radius.
+9.  Euclidean structure: orthonormal basis, norms, spectral radius.
 9.  Normed linear spaces and duality.
 9.  Spectral theory of self-adjoint mappings.
 
