@@ -13,6 +13,8 @@ Basic info
 
 **Class meeting times:** MW, 3:55--5:10, LeConte, Room 310.
 
+**Course webpage:** http://williamdemeo.github.io/LinearAlgebra
+
 Textbook
 --------
 The main textbook for the course will be *either* Golan *or* Lax. (The final choice will be made very soon.)
