@@ -103,21 +103,13 @@ Algorithm for Finding Eigenvalues;  Householder Reflection for OR Factorization;
 Tridiagonal Form;  Analogy of QR Algorithm and Toda Flow;  Moser's Theorem.
 -->
 
-**Course Website:**
-\url{http://williamdemeo.wordpress.com/teaching/math-700-spring-2014/}\\
-The course webpage will list the material covered, the assigned homework, test dates, and any
-supplemental material. It will be updated often as we progress through the
-material, so students should check it routinely.\\ 
+<!-- **Academic Honesty:**  Students are held to the highest standards -->
+<!-- of academic integrity.  Cheaters are not tolerated and will be -->
+<!-- referred to and dealt with by the USC Office of Academic Integrity, in a  manner -->
+<!-- consistent with university regulations, which range from a warning to expulsion -->
+<!-- from the university. -->
 
-**Learning Outcomes:** 
-
-**Academic Honesty:**  Students are held to the highest standards
-of academic integrity.  Cheaters are not tolerated and will be
-referred to and dealt with by the USC Office of Academic Integrity, in a  manner
-consistent with university regulations, which range from a warning to expulsion
-from the university.
-
-**Electronics policy:** Please silence and refrain from using all electronic
-devices (phones, ipods, tablets, microwave ovens, etc.) during class and exam
-periods, unless the nature of the class topic requires the use of such devices. 
+<!-- **Electronics policy:** Please silence and refrain from using all electronic -->
+<!-- devices (phones, ipods, tablets, microwave ovens, etc.) during class and exam -->
+<!-- periods, unless the nature of the class topic requires the use of such devices.  -->
 
