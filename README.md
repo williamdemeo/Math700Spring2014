@@ -14,8 +14,12 @@ Math 700: Linear Algebra, Spring 2014
  <br/>
 [Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax.
 <br/>
+img.resize{
+    width:540px; /* you can use % */
+    height:auto;
+}
 <!-- GOLAN -->
-<a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352"><IMG border=0 src="http://images.barnesandnoble.com/images/229900000/229902005.JPG" ></a><IMG border=0  src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9789400726352&type=2&subid=0" > <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564"><IMG border=0 src="http://images.barnesandnoble.com/images/218710000/218716309.JPG" ></a><IMG border=0  src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9780471751564&type=2&subid=0" >
+<a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352"><IMG border=0 src="http://images.barnesandnoble.com/images/229900000/229902005.JPG" ></a><IMG border=0 width="200" height=" src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9789400726352&type=2&subid=0" > <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564"><IMG border=0 src="http://images.barnesandnoble.com/images/218710000/218716309.JPG" ></a><IMG border=0 width=1 height=1 src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9780471751564&type=2&subid=0" >
 
 
 **Other references:**
