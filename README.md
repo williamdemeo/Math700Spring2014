@@ -42,7 +42,7 @@ will be covered on the exams, and many of the problems that appear will be drawn
 from the collection of homework problems.
 
 **Computing:**
-No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the theory is to use the computer to experiment with and apply it. For this, we will rely on a number of programming languages, depending in part on student backgrounds and interests.  Most likely these will include Matlab/Octave, Sage/Python, C/LAPACK. 
+No prior programming experience is required for this course, and the computing component of the course will be optional. This is a graduate math course, so it will be taught from a more abstract and general perspective than undergraduate linear algebra.  However, one of the best ways to develop a deeper understanding of the material is to use the computer to experiment with and apply the methods. For this, we will use a number of programming languages, depending in part on student backgrounds and interests.  These will most likely include Matlab/Octave, Sage/Python, and C/LAPACK. 
 
 **Course topics in more detail:** 
 Below is a list of some of the topics we will cover.  In addition to these, we will 
