@@ -1,10 +1,12 @@
 <link href="style.css" type="text/css" rel="stylesheet"></link>
+<noscript>
 <style type="text/css">
 	img.resize{
 	width:540px; /* you can use % */
 	height:auto;
 	}
 </style>
+</noscript>
 	  
 Math 700: Linear Algebra, Spring 2014
 =====================================
