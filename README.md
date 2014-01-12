@@ -155,8 +155,8 @@ will then have a chance to look at the official solutions and check them against
 their own work.  At any time thereafter, any student may submit corrections or
 suggestions for improving the official solutions. 
 
-For each assignment, the two designated problem solvers should submit their work
-as follows: 
+For each assignment, the two designated problem solvers should submit their 
+joint work as follows:
 
 1. Solve the problems. (Try to make sure they are correct. Consult each other
    and the prof if necessary.)
@@ -170,7 +170,7 @@ as follows:
 7. Submit a [pull request][]. (I'll demonstrate this in class.)
 
 **Resources:**
-+ [The basics of Git in 15 minutes][]
++ [Learn Git in 15 minutes][]
 + [git--the simple guide][]
 + [Git Help][]
 + [LaTeX Guide][]
@@ -188,6 +188,7 @@ as follows:
 [Commit]: http://rogerdudler.github.io/git-guide/
 [Git Help]: https://help.github.com/articles
 [The basics of Git in 15 minutes]: http://try.github.io/levels/1/challenges/1
+[Learn Git in 15 minutes]: http://try.github.io/levels/1/challenges/1
 [15 minute tutorial]: http://try.github.io/levels/1/challenges/1
 [A Beginner's Guide to LaTeX]: http://www.cs.princeton.edu/courses/archive/spr10/cos433/Latex/latex-guide.pdf
 [LaTeX Guide]: http://en.wikibooks.org/wiki/LaTeX
