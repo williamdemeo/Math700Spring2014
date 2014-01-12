@@ -118,11 +118,13 @@ and is not hard to install.
 
 If you've used Sage before and just need a quick refresher, 
 check out the [Sage Quick Start Guides](http://www.sagemath.org/doc/prep/quickstart.html).  
-Be sure to check out the documentation on linear algebra:
+Be sure to check out the Sage linear algebra documentation:
+
 + [Sage Quick Start Section: Linear Algebra](http://www.sagemath.org/doc/prep/Quickstarts/Linear-Algebra.html)
 + [Sage Guided Tour Section: Linear Algebra](http://www.sagemath.org/doc/tutorial/tour_linalg.html)
 
 If you are brand new to Sage, please try the following:
+
 1. Go to http://www.sagemath.org/ and click [Try Sage Online](http://cloud.sagemath.com/).  
 2. [Getting stated using Sage](http://www.sagemath.org/doc/prep/Logging-On.html) explains how to create an account.  
 3. Check out the [Sage Thematic Tutorials](http://www.sagemath.org/doc/thematic_tutorials/index.html)
@@ -163,8 +165,8 @@ joint work as follows:
 2. Type up your solutions using [LaTeX][] and save in a single file, e.g.,
    Homework01.tex.   
 3. [Set up Git][] on your computer.   
-4. Use Git to [Fork][] our [Math700Homework][] repository to your computer. (to be demonstrated in class)   
-5. Copy your solution file into the directory Math700Homework/Solutions.   
+4. [Fork][] the [Math700Homework][] repository to your computer. (to be demonstrated in class)   
+5. Copy your solution file into the directory Math700Homework/Solutions on your computer.   
 6. [Commit][] your changes.   
 7. Submit a [pull request][]. (to be demonstrated in class)  
 
