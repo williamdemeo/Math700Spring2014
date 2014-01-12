@@ -51,7 +51,7 @@ Solving problems is the best way to learn this material.  A list of problems,
 both from the textbook and other sources, will be distributed and updated as the
 course progresses.  Students will solve and submit as many solutions as
 possible.  In addition, for each homework assignment, two students will be
-responsible for typing up correct soltuions to the homework problems using LaTeX
+responsible for typing up correct solutions to the homework problems using LaTeX
 and submitting them to the class GitHub repository. 
 (See [Git and GitHub](#git-and-github) below.)  Homework is worth 50% of the
 course grade.
@@ -126,13 +126,13 @@ Be sure to check out the Sage linear algebra documentation:
 If you are brand new to Sage, please try the following:
 
 1. Go to http://www.sagemath.org/ and click [Try Sage Online](http://cloud.sagemath.com/).  
-2. [Getting stated using Sage](http://www.sagemath.org/doc/prep/Logging-On.html) explains how to create an account.  
+2. [Getting started using Sage](http://www.sagemath.org/doc/prep/Logging-On.html) explains how to create an account.  
 3. Check out the [Sage Thematic Tutorials](http://www.sagemath.org/doc/thematic_tutorials/index.html)
 
 
 Git and GitHub
 --------------
-In this class, occassionally you will have to submit a homework assigment using 
+In this class, occasionally you will have to submit a homework assignment using 
 [Git][] and [GitHub][].  These are powerful software services that make it easy
 to maintain and collaborate on projects.  You are not expected to have heard of
 Git or GitHub before this class, and I am more than willing to work with any
@@ -184,7 +184,7 @@ If we find it useful to have an extensive online dialog,
 we might consider other tools as the semester progresses.
 For now, however, you are encouraged to start a dialog
 with the rest of the class by creating a [New Issue][] in 
-this respository, or in the [Math700Homework][] repository. 
+this repository, or in the [Math700Homework][] repository. 
 
 [New Issue]: https://github.com/williamdemeo/LinearAlgebra/issues
 [LaTeX]: http://en.wikipedia.org/wiki/LaTeX
