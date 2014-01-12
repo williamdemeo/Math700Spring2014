@@ -144,7 +144,7 @@ If you are new to Git, please try the [15 Git minute tutorial][].  Also, the
 Git is very easy to use, and you only need the very basics for what we will do
 in this class.  But [the main reason Git was created][] (by Linus Torvalds) was
 to make it very easy to do more sophisticated things like branching and 
-merging. If you want to learn more, a great place to start is [git--the simple guide][].
+merging that improve workflow and ease collaboration.
 
 Submitting Homework
 -------------------
