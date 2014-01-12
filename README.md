@@ -10,6 +10,18 @@ Basic info
 **Class meeting times:** MW, 3:55--5:10, LeConte, Room 310.  
 **Webpage:** http://williamdemeo.github.io/LinearAlgebra
 
+-----------------------------------------------------------------------
+- [Overview](#overview)
+- [Textbook](#textbook)
+- [Homework](#homework)
+- [Exams](#exams)
+- [Course topics](#course-topics)
+- [Computing](#computing)
+	- [Sage](#sage)
+	- [Git and GitHub](#git-and-github)
+	- [Submitting Homework](#submitting-homework)
+
+
 Overview
 --------
 This course in linear algebra is aimed at beginning graduate students in
@@ -40,20 +52,19 @@ Homework
 Solving problems is the best way to learn this material.  A list of problems,
 both from the textbook and other sources, will be distributed and updated as the
 course progresses.  Students will solve and submit as many solutions as
-possible, and 55% of the grade will be based on the number of correct, well
-written solutions submitted. In addition, for each homework assignment, two
-students will be responsible for typing up correct soltuions to approximately
-five of the homework problems using LaTeX.  These will be submitted to our
-GitHub repository and all students will access to them.
-(See [Git and GitHub](#git-and-github) below).
+possible.  In addition, for each homework assignment, two students will be
+responsible for typing up correct soltuions to the homework problems using LaTeX
+and submitting them to the class GitHub repository. 
+(See [Git and GitHub](#git-and-github) below.)  Homework is worth 50% of the
+course grade.
 
 
 Exams
 -----
-There will be one midterm exam worth 20% of the grade.
+There will be one midterm exam worth 20% of the course grade.
 It will be scheduled as we progress, and notice of at least one week will be
 given prior to the date of a test.  A final exam at the end of the semester will
-be worth 25% of the grade.
+be worth 30% of the course grade.
 
 
 Course topics
@@ -82,7 +93,7 @@ Course topics
 +  Matrix inequalities and decompositions.
 +  Algebras of linear transformations, simultaneous triangularization.
 
-
+-----------------------------------------------------------------------------
 Computing
 =========
 No prior programming experience is required for this course, and the computing
