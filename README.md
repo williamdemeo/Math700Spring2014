@@ -123,8 +123,8 @@ Be sure to check out the documentation on linear algebra:
 + [Sage Guided Tour Section: Linear Algebra](http://www.sagemath.org/doc/tutorial/tour_linalg.html)
 
 If you are brand new to Sage, please try the following:
-1. Go to http://www.sagemath.org/ and click [Try Sage Online](http://cloud.sagemath.com/).
-2. [Getting stated using Sage](http://www.sagemath.org/doc/prep/Logging-On.html) explains how to create an account.
+1. Go to http://www.sagemath.org/ and click [Try Sage Online](http://cloud.sagemath.com/).  
+2. [Getting stated using Sage](http://www.sagemath.org/doc/prep/Logging-On.html) explains how to create an account.  
 3. Check out the [Sage Thematic Tutorials](http://www.sagemath.org/doc/thematic_tutorials/index.html)
 
 
@@ -150,7 +150,7 @@ All students should try to solve all of the assigned homework problems.
 However, not all solutions will be collected and graded.  Instead, for each
 assignment, on a rotating basis, two students will be responsible for solving
 and writing up "official" solutions for the given assignment. These students
-will then submit their solutions to the Math700Homework repository. Other students
+will then submit their solutions to the [Math700Homework][] repository. Other students
 will then have a chance to look at the official solutions and check them against
 their own work.  At any time thereafter, any student may submit corrections or
 suggestions for improving the official solutions. 
@@ -159,24 +159,32 @@ For each assignment, the two designated problem solvers should submit their
 joint work as follows:
 
 1. Solve the problems. (Try to make sure they are correct. Consult each other
-   and the prof if necessary.)
-2. Type up your solutions using [LaTeX][]. (Save them in a single file; e.g.,
-   Homework01.tex.) 
-3. [Set up Git][] on your computer.
-4. Use Git to [Fork][] our Math700Homework repository to your computer. (I'll
-   demonstrate this in class.)
-5. Copy your solution file into the directory Math700Homework/Solutions.
-6. [Commit][] your changes.
-7. Submit a [pull request][]. (I'll demonstrate this in class.)
+   and the prof if necessary.)   
+2. Type up your solutions using [LaTeX][] and save in a single file, e.g.,
+   Homework01.tex.   
+3. [Set up Git][] on your computer.   
+4. Use Git to [Fork][] our [Math700Homework][] repository to your computer. (to be demonstrated in class)   
+5. Copy your solution file into the directory Math700Homework/Solutions.   
+6. [Commit][] your changes.   
+7. Submit a [pull request][]. (to be demonstrated in class)  
 
 **Resources:**
-+ [Learn Git in 15 minutes][]
-+ [git--the simple guide][]
-+ [Git Help][]
-+ [LaTeX Guide][]
-+ [A Beginner's Guide to LaTeX][]
++ [Learn Git in 15 minutes][]  
++ [git--the simple guide][]  
++ [Git Help][]  
++ [LaTeX Guide][]  
++ [A Beginner's Guide to LaTeX][]  
 
 
+Online Discussion Forum
+-----------------------
+If we find it useful to have an extensive online dialog, 
+we might consider other tools as the semester progresses.  
+For now, however, anyone in the class can start a dialog
+with the rest of the class by creating a [New Issue][] in 
+this respository, or in the [Math700Homework][] repository. 
+
+[New Issue]: https://github.com/williamdemeo/LinearAlgebra/issues
 [LaTeX]: http://en.wikipedia.org/wiki/LaTeX
 [GitHub]: http://en.wikipedia.org/wiki/Github
 [Git]: http://en.wikipedia.org/wiki/Git_(software)
@@ -195,3 +203,4 @@ joint work as follows:
 [Git--the simple guide]: http://rogerdudler.github.io/git-guide/
 [GitHub help pages]: https://help.github.com/
 [the main reason Git was created]: http://youtu.be/4XpnKHJAok8
+[Math700Homework]: https://github.com/williamdemeo/Math700Homework
