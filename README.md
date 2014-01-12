@@ -181,8 +181,8 @@ joint work as follows:
 Online Discussion Forum
 -----------------------
 If we find it useful to have an extensive online dialog, 
-we might consider other tools as the semester progresses.  
-For now, however, anyone in the class can start a dialog
+we might consider other tools as the semester progresses.
+For now, however, you are encouraged to start a dialog
 with the rest of the class by creating a [New Issue][] in 
 this respository, or in the [Math700Homework][] repository. 
 
