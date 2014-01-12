@@ -6,7 +6,7 @@ Math 700: Linear Algebra, Spring 2014
 **Office:** LeConte College, Room 314C  
 **Office hours:** Wed 11-12; Fri 11-12 & 1-2; and by appointment.  
 **Class meeting times:** MW, 3:55--5:10, LeConte, Room 310.  
-**Course Webpage:** [this page](http://github.com/williamdemeo/LinearAlgebra) or [fa&ccedil;ade][].    
+**Course Webpage:** [this page](http://github.com/williamdemeo/LinearAlgebra) or [the fa&ccedil;ade][].    
 **Homework Repo:** http://github.com/williamdemeo/Math700Homework
 
 -----------------------------------------------------------------------
@@ -208,4 +208,4 @@ this repository, or in the [Math700Homework][] repository.
 [the main reason Git was created]: http://youtu.be/4XpnKHJAok8
 [Math700Homework]: https://github.com/williamdemeo/Math700Homework
 [15 Git minute tutorial]: http://try.github.io/levels/1/challenges/1
-[fa&ccedil;ade]: http://williamdemeo.github.io/LinearAlgebra
+[the fa&ccedil;ade]: http://williamdemeo.github.io/LinearAlgebra
