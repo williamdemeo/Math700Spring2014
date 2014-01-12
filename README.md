@@ -152,7 +152,7 @@ All students should try to solve all of the assigned homework problems.
 However, not all solutions will be collected and graded.  Instead, for each
 assignment, on a rotating basis, two students will be responsible for solving
 and writing up "official" solutions for the given assignment. These students
-will then submit their solutions to the Math700Homework][] repository. Other students
+will then submit their solutions to the [Math700Homework][] repository. Other students
 will then have a chance to look at the official solutions and check them against
 their own work.  At any time thereafter, any student may submit corrections or
 suggestions for improving the official solutions. 
