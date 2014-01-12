@@ -136,7 +136,7 @@ to maintain and collaborate on projects.  You are not expected to have heard of
 Git or GitHub before this class, and I am more than willing to work with any
 student who has limited experience with or knowledge of computers or computing.
 
-If you are new to Git, please try [this 15 minute tutorial][].  Also, the
+If you are new to Git, please try the [15 Git minute tutorial][].  Also, the
 [git--the simple guide][] and the [GitHub help pages][] are excellent.
 
 Git is very easy to use, and you only need the very basics for what we will do
@@ -150,7 +150,7 @@ All students should try to solve all of the assigned homework problems.
 However, not all solutions will be collected and graded.  Instead, for each
 assignment, on a rotating basis, two students will be responsible for solving
 and writing up "official" solutions for the given assignment. These students
-will then submit their solutions to the [Math700Homework][] repository. Other students
+will then submit their solutions to the Math700Homework][] repository. Other students
 will then have a chance to look at the official solutions and check them against
 their own work.  At any time thereafter, any student may submit corrections or
 suggestions for improving the official solutions. 
@@ -204,3 +204,4 @@ this respository, or in the [Math700Homework][] repository.
 [GitHub help pages]: https://help.github.com/
 [the main reason Git was created]: http://youtu.be/4XpnKHJAok8
 [Math700Homework]: https://github.com/williamdemeo/Math700Homework
+[15 Git minute tutorial]: http://try.github.io/levels/1/challenges/1
