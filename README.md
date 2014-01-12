@@ -6,7 +6,7 @@ Math 700: Linear Algebra, Spring 2014
 **Office:** LeConte College, Room 314C  
 **Office hours:** Wed 11-12; Fri 11-12 & 1-2; and by appointment.  
 **Class meeting times:** MW, 3:55--5:10, LeConte, Room 310.  
-**Webpage:** http://github.com/williamdemeo/LinearAlgebra
+**Webpage:** http://github.com/williamdemeo/LinearAlgebra  
 **Homework Repository:** http://github.com/williamdemeo/Math700Homework
 
 -----------------------------------------------------------------------
