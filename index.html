@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Linearalgebra by williamdemeo</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Linearalgebra</h1>
+        <h2>Math 700: Linear Algebra, Spring 2014</h2>
+        <a href="https://github.com/williamdemeo/LinearAlgebra" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="math-700-linear-algebra-spring-2014" class="anchor" href="#math-700-linear-algebra-spring-2014"><span class="octicon octicon-link"></span></a>Math 700: Linear Algebra, Spring 2014</h1>
+
+<p><strong>Instructor:</strong> William DeMeo<br><strong>Email:</strong> <a href="mailto:williamdemeo@gmail.com">williamdemeo@gmail.com</a><br><strong>Office:</strong> LeConte College, Room 314C<br><strong>Office hours:</strong> Wed 11-12; Fri 11-12 &amp; 1-2; and by appointment.<br><strong>Class meeting times:</strong> MW, 3:55--5:10, LeConte, Room 310.<br><strong>Webpage:</strong> <a href="http://github.com/williamdemeo/LinearAlgebra">http://github.com/williamdemeo/LinearAlgebra</a><br><strong>Homework Repository:</strong> <a href="http://github.com/williamdemeo/Math700Homework">http://github.com/williamdemeo/Math700Homework</a></p>
+
+<hr><ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#textbook">Textbook</a></li>
+<li><a href="#homework">Homework</a></li>
+<li><a href="#exams">Exams</a></li>
+<li><a href="#course-topics">Course topics</a></li>
+<li>
+<a href="#computing">Computing</a>
+
+<ul>
+<li><a href="#sage">Sage</a></li>
+<li><a href="#git-and-github">Git and GitHub</a></li>
+<li><a href="#submitting-homework">Submitting Homework</a></li>
+</ul>
+</li>
+</ul><h2>
+<a name="overview" class="anchor" href="#overview"><span class="octicon octicon-link"></span></a>Overview</h2>
+
+<p>This course in linear algebra is aimed at beginning graduate students in
+mathematics.  It may also be appropriate for advanced undergraduate math majors,
+and graduate students in engineering and computer science.  The focus is on
+finite dimensional vector spaces from a more general point of view than one
+finds in an undergraduate course.  Some of the topics covered are the following
+(from the catalog): vector spaces, linear transformations, dual spaces,
+decompositions of spaces, canonical forms.  A more detailed list of topics
+appears below. </p>
+
+<h2>
+<a name="textbook" class="anchor" href="#textbook"><span class="octicon octicon-link"></span></a>Textbook</h2>
+
+<p><a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.9789400726352&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352">The Linear Algebra a Beginning Graduate Student Ought to Know</a>, Jonathan Golan.</p>
+
+
+
+<p><a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.9789400726352&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352">
+<img border="0" src="http://images.barnesandnoble.com/images/229900000/229902005.JPG"></a><img border="0" src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&amp;bids=239662.9789400726352&amp;type=2&amp;subid=0"></p>
+
+<p><strong>Other references:</strong>
+<a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.9780471751564&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564">Linear Algebra and Its Applications</a>, Peter Lax.<br><a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.9781614272816&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816">Finite Dimensional Vector Spaces</a>, Paul Halmos.<br><a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.2580521386329&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FMatrix-Analysis%2FRoger-A-Horn%2Fe%2F2580521386329">Matrix Analysis</a>, Horn and Johnson.<br><a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.9780801854149&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FMatrix-Computations%2FGene-H-Golub%2Fe%2F9780801854149">Matrix Computations</a>, Golub and Van Loan.<br><a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&amp;offerid=239662.9780387728285&amp;type=2&amp;murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FAdvanced-Linear-Algebra%2FSteven-Roman%2Fe%2F9780387728285">Advanced Linear Algebra</a>, Steven Roman.</p>
+
+<h2>
+<a name="homework" class="anchor" href="#homework"><span class="octicon octicon-link"></span></a>Homework</h2>
+
+<p>Solving problems is the best way to learn this material.  A list of problems,
+both from the textbook and other sources, will be distributed and updated as the
+course progresses.  Students will solve and submit as many solutions as
+possible.  In addition, for each homework assignment, two students will be
+responsible for typing up correct solutions to the homework problems using LaTeX
+and submitting them to the <a href="https://github.com/williamdemeo/Math700Homework">Math700Homework</a> repository. 
+(See <a href="#git-and-github">Git and GitHub</a> below.)  Homework is worth 50% of the
+course grade.</p>
+
+<h2>
+<a name="exams" class="anchor" href="#exams"><span class="octicon octicon-link"></span></a>Exams</h2>
+
+<p>There will be one midterm exam worth 20% of the course grade.
+It will be scheduled as we progress, and notice of at least one week will be
+given prior to the date of a test.  A final exam at the end of the semester will
+be worth 30% of the course grade.</p>
+
+<h2>
+<a name="course-topics" class="anchor" href="#course-topics"><span class="octicon octicon-link"></span></a>Course topics</h2>
+
+<ol>
+<li> Fields; vector spaces; algebras over a field; isomorphism theorems.</li>
+<li> Linear independence; basis and dimension.</li>
+<li> Linear transformations.</li>
+<li> The endomorphism algebra of a vector space.</li>
+<li> Representation of linear transformations by matrices.</li>
+<li> Lattice of subspaces and invariant subspaces.</li>
+<li> Systems of linear equations.</li>
+<li> Determinant and trace.</li>
+<li> General and special linear groups: orthogonal and unitary groups.</li>
+<li> Spectral theory: eigenvalues, eigenvectors.</li>
+<li> Euclidean structure: orthonormal basis, norms, spectral radius.</li>
+<li> Normed linear spaces and duality.</li>
+<li> Spectral theory of self-adjoint mappings.</li>
+</ol><p><strong>Other topics (depending on time and student interest)</strong></p>
+
+<ul>
+<li> Krylov subspaces.</li>
+<li> Self-adjoint endomorphisms.</li>
+<li> Unitary and normal endomorphisms.</li>
+<li> Moore-Penrose pseudoinverses.</li>
+<li> Bilinear transformations and forms.</li>
+<li> Matrix inequalities and decompositions.</li>
+<li> Algebras of linear transformations, simultaneous triangularization.</li>
+</ul><hr><h1>
+<a name="computing" class="anchor" href="#computing"><span class="octicon octicon-link"></span></a>Computing</h1>
+
+<p>No prior programming experience is required for this course, and the computing
+component of the course will be fairly minimal.  However, all students must know
+(or learn) how to type up solutions to <em>some</em> of the homework problems using 
+<a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX</a>, and all students must know (or learn) how to submit <em>some</em> of these
+solutions using <a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a> and <a href="http://en.wikipedia.org/wiki/Github">GitHub</a>.  (More information about this below.)</p>
+
+<h2>
+<a name="sage" class="anchor" href="#sage"><span class="octicon octicon-link"></span></a>Sage</h2>
+
+<p>This is a graduate math course, so it will be taught from a more abstract and
+general perspective than undergraduate linear algebra.  However, one of the best
+ways to develop a deeper understanding of this subject is to use the computer to
+experiment with and apply the theory.  For this we will use the open source math
+software called <a href="http://en.wikipedia.org/wiki/Sage_(mathematics_software)">Sage</a>.  Sage essentially provides a [Python][] interface to
+a <a href="http://en.wikipedia.org/wiki/Sage_(mathematics_software)#Software_packages_contained_in_Sage">vast array</a> of well developed and powerful open source mathematical software.</p>
+
+<p>Getting started with Sage is extremely easy.  You don't even need to install any
+software. By using Sage though a web browser you can and do all your computing
+and store all your sage "worksheets" in the cloud.</p>
+
+<p>It's also possible to download and install Sage on your own computer.  It is free
+and is not hard to install. </p>
+
+<p>If you've used Sage before and just need a quick refresher, 
+check out the <a href="http://www.sagemath.org/doc/prep/quickstart.html">Sage Quick Start Guides</a>.<br>
+Be sure to check out the Sage linear algebra documentation:</p>
+
+<ul>
+<li><a href="http://www.sagemath.org/doc/prep/Quickstarts/Linear-Algebra.html">Sage Quick Start Section: Linear Algebra</a></li>
+<li><a href="http://www.sagemath.org/doc/tutorial/tour_linalg.html">Sage Guided Tour Section: Linear Algebra</a></li>
+</ul><p>If you are brand new to Sage, please try the following:</p>
+
+<ol>
+<li>Go to <a href="http://www.sagemath.org/">http://www.sagemath.org/</a> and click <a href="http://cloud.sagemath.com/">Try Sage Online</a>.<br>
+</li>
+<li>
+<a href="http://www.sagemath.org/doc/prep/Logging-On.html">Getting started using Sage</a> explains how to create an account.<br>
+</li>
+<li>Check out the <a href="http://www.sagemath.org/doc/thematic_tutorials/index.html">Sage Thematic Tutorials</a>
+</li>
+</ol><h2>
+<a name="git-and-github" class="anchor" href="#git-and-github"><span class="octicon octicon-link"></span></a>Git and GitHub</h2>
+
+<p>In this class, occasionally you will have to submit a homework assignment using 
+<a href="http://en.wikipedia.org/wiki/Git_(software)">Git</a> and <a href="http://en.wikipedia.org/wiki/Github">GitHub</a>.  These are powerful software services that make it easy
+to maintain and collaborate on projects.  You are not expected to have heard of
+Git or GitHub before this class, and I am more than willing to work with any
+student who has limited experience with or knowledge of computers or computing.</p>
+
+<p>If you are new to Git, please try the <a href="http://try.github.io/levels/1/challenges/1">15 Git minute tutorial</a>.  Also, the
+<a href="http://rogerdudler.github.io/git-guide/">git--the simple guide</a> and the <a href="https://help.github.com/">GitHub help pages</a> are excellent.</p>
+
+<p>Git is very easy to use, and you only need the very basics for what we will do
+in this class.  But <a href="http://youtu.be/4XpnKHJAok8">the main reason Git was created</a> (by Linus Torvalds) was
+to make it very easy to do more sophisticated things like branching and 
+merging that improve workflow and ease collaboration.</p>
+
+<h2>
+<a name="submitting-homework" class="anchor" href="#submitting-homework"><span class="octicon octicon-link"></span></a>Submitting Homework</h2>
+
+<p>All students should try to solve all of the assigned homework problems.
+However, not all solutions will be collected and graded.  Instead, for each
+assignment, on a rotating basis, two students will be responsible for solving
+and writing up "official" solutions for the given assignment. These students
+will then submit their solutions to the <a href="https://github.com/williamdemeo/Math700Homework">Math700Homework</a> repository. Other students
+will then have a chance to look at the official solutions and check them against
+their own work.  At any time thereafter, any student may submit corrections or
+suggestions for improving the official solutions. </p>
+
+<p>For each assignment, the two designated problem solvers should submit their 
+joint work as follows:</p>
+
+<ol>
+<li>Solve the problems. (Try to make sure they are correct. Consult each other
+and the prof if necessary.)<br>
+</li>
+<li>Type up your solutions using <a href="http://en.wikipedia.org/wiki/LaTeX">LaTeX</a> and save in a single file, e.g.,
+Homework01.tex.<br>
+</li>
+<li>
+<a href="https://help.github.com/articles/set-up-git">Set up Git</a> on your computer.<br>
+</li>
+<li>
+<a href="https://help.github.com/articles/fork-a-repo">Fork</a> the <a href="https://github.com/williamdemeo/Math700Homework">Math700Homework</a> repository to your computer. (to be demonstrated in class)<br>
+</li>
+<li>Copy your solution file into the directory Math700Homework/Solutions on your computer.<br>
+</li>
+<li>
+<a href="http://rogerdudler.github.io/git-guide/">Commit</a> your changes.<br>
+</li>
+<li>Submit a <a href="https://help.github.com/articles/using-pull-requests">pull request</a>. (to be demonstrated in class)<br>
+</li>
+</ol><p><strong>Resources:</strong></p>
+
+<ul>
+<li>
+<a href="http://try.github.io/levels/1/challenges/1">Learn Git in 15 minutes</a><br>
+</li>
+<li>
+<a href="http://rogerdudler.github.io/git-guide/">git--the simple guide</a><br>
+</li>
+<li>
+<a href="https://help.github.com/articles">Git Help</a><br>
+</li>
+<li>
+<a href="http://en.wikibooks.org/wiki/LaTeX">LaTeX Guide</a><br>
+</li>
+<li>
+<a href="http://www.cs.princeton.edu/courses/archive/spr10/cos433/Latex/latex-guide.pdf">A Beginner's Guide to LaTeX</a><br>
+</li>
+</ul><h2>
+<a name="online-discussion-forum" class="anchor" href="#online-discussion-forum"><span class="octicon octicon-link"></span></a>Online Discussion Forum</h2>
+
+<p>If we find it useful to have an extensive online dialog, 
+we might consider other tools as the semester progresses.
+For now, however, you are encouraged to start a dialog
+with the rest of the class by creating a <a href="https://github.com/williamdemeo/LinearAlgebra/issues">New Issue</a> in 
+this repository, or in the <a href="https://github.com/williamdemeo/Math700Homework">Math700Homework</a> repository. </p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/williamdemeo/LinearAlgebra/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/williamdemeo/LinearAlgebra/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/williamdemeo/LinearAlgebra"></a> is maintained by <a href="https://github.com/williamdemeo">williamdemeo</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-44974674-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
