@@ -1,0 +1,1011 @@
+%%
+%% This is LaTeX2e input
+%%
+
+\documentclass[11pt]{amsart}
+\pagestyle{plain}
+
+
+\author{}
+\date{}
+\title{Linear Algebra Questions from the Admission to Candidacy Exam} 
+%\textheight=9in:Swedish paper
+%\textheight=8.2in%American paper
+%\textwidth=6.1in
+%\hoffset=-.25in
+%\voffset=-1in
+
+%\input ts:intdef
+
+\renewcommand{\(}{\left(}
+\renewcommand{\)}{\right)}
+\renewcommand{\[}{\left[}
+\renewcommand{\]}{\right]}
+
+
+%\newcommand{\beq}{\begin{equation}}
+%\newcommand{\eeq}{\end{equation}}
+
+
+\newfont{\bi}{cmbxti10 scaled \magstep1}
+\newcommand{\cl}{\setlength{\itemsep}{-5pt}
+                 \setlength{\parsep}{-5pt}}
+
+
+\setlength{\partopsep}{3pt}
+\setlength{\topsep}{3pt}
+
+
+\renewcommand{\emptyset}{\varnothing}
+\renewcommand{\phi}{\varphi}
+
+
+\newcommand{\area}{\mathop{\rm Area}}
+\newcommand{\ba}{\begin{array}}
+\newcommand{\cn}{\mbox{\bf C}}
+\newcommand{\cd}{,\ldots,}
+\newcommand{\ch}{{\cal H}}
+\newcommand{\compsub}{\mbox{$\subset\subset$}}
+\newcommand{\comsub}{\mbox{$\subset\subset$}}
+\newcommand{\dist}{\mathop{\rm dist}}
+\newcommand{\D}{\Delta}
+\newcommand{\e}{\varepsilon}
+\newcommand{\E}{\mbox{\bf E}}
+\newcommand{\ea}{\end{array}}
+\newcommand{\f}{\partial}
+\newcommand{\g}{\gamma}
+\newcommand{\ga}{\alpha}
+\newcommand{\gb}{\beta}
+\newcommand{\gd}{\delta}
+\newcommand{\gi}{\iota}
+\newcommand{\grad}{\nabla}
+\newcommand{\grg}{\mbox{\bf g}}
+\newcommand{\hil}{{\cal H}}
+\newcommand{\id}{\mathop{\rm Id}\nolimits}
+\newcommand{\im}{\mathop{\rm Im}}
+\newcommand{\image}{\mathop{\rm Image}\nolimits}
+\newcommand{\kernel}{\mathop{\rm Kernel}\nolimits}
+\newcommand{\la}{\langle}
+\newcommand{\lap}{\Delta}
+\newcommand{\length}{\mathop{\rm Length}\nolimits}
+\newcommand{\m}{\hskip-8.5pt&{}&\hskip-8.5pt}
+\newcommand{\nn}{\nonumber}
+\newcommand{\oc}{^\bot}
+\newcommand{\om}{\Omega}
+\newcommand{\oo}{\mbox{\bf o}}
+\newcommand{\opnorm}[1]{\|#1\|_{\mathop{\rm Op}}}
+\newcommand{\R}{{\mathbf R}}
+\newcommand{\ra}{\rangle}
+\newcommand{\s}{\sigma}
+\newcommand{\sE}{{\small \bf E}}
+\newcommand{\sr}{{\small \bf R}}
+\newcommand{\rank}{\mathop{\rm rank}}
+\newcommand{\tr}{\mathop{\rm Tr}}
+\newcommand{\trace}{\mathop{\rm trace}}
+\newcommand{\uu}{\omega}
+\newcommand{\vol}{\mathop{\rm Vol}\nolimits}
+\newcommand{\w}{\wedge}
+\newcommand{\W}{\bigwedge}	
+\newcommand{\ww}{\omega}
+\newcommand{\x}{\xi}
+\newcommand{\y}{\eta}
+\newcommand{\z}{\mbox{\bf Z}}
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{remark}[thm]{Remark}
+\newtheorem{definition}[thm]{Definition}
+\newtheorem{notation}[thm]{Notation}
+\newtheorem{exercise}[thm]{Exercise}
+\newtheorem{prob}{Problem}
+\newtheorem{example}[thm]{Example}
+\newtheorem{step}{Step}
+
+\setlength{\textheight}{9in}%Amercian paper
+%\setlength{\textheight}{9.9in}%Swedish paper
+\setlength{\textwidth}{6.7in}
+\setlength{\hoffset}{-.5in}
+\setlength{\voffset}{-1in}
+
+
+
+%\addtolength{\itemsep}{-10pt}
+
+
+%\newlength{\myitemsep}{1in}
+
+%\renewcommand{\itemsep}{\myitemsep}
+
+%\setlength{\itemsep}{-10pt}
+
+
+%\input intdef
+%\newcommand{\mod}{\mathop{\rm mod}\nolimits}
+
+\newcommand{\heading}[1]{\centerline{\large\sc #1}}
+
+\newcommand{\num}{\begin{enumerate}}
+\newcommand{\enum}{\end{enumerate}}
+\newcommand{\fe}{{\bf F}}
+\renewcommand{\tr}{\mathop{\rm tr}\nolimits}
+\hoffset=-1in
+
+
+\begin{document}
+\maketitle
+
+\noindent
+The following is a more or less complete list of the linear algebra
+questions that have appeared on the admission to candidacy exam for
+the last ten years.  Some questions have been reworded a little.
+\bigskip
+
+\heading{January 1984}
+\num
+\item Let $V$ be a finite-dimensional vector space and let $T$ be a
+linear operator on $V$.  Suppose that $T$ commutes with every
+diagonalizable linear operator on $V$.  Prove that $T$ is a scalar
+multiple of the identity operator.
+\item Let $V$ and $W$ be vector spaces and let $T$ be a linear
+operator from $V$ into $W$.  Suppose that $V$ is finite-dimensional.
+Prove $\mathop{\rm rank}(T)+\mathop{\rm nullity}(T)=\dim V$.
+\item Let $A$ and $B$ be $n\times n$ matrices over a field ${\bf F}$.
+\num
+\item Prove that if $A$ or $B$ is nonsingular, then $AB$ is similar to
+$BA$.
+\item Show that there exist matrices $A$ and $B$ so that $AB$ is {\em
+not} similar to $BA$.
+\item What can you deduce about the eigenvalues of $AB$ and $BA$?
+Prove your answer.
+\enum
+\item Let $A=\(\begin{array}{cc}D&E\\F&G\end{array}\)$, where $D$ and
+$G$ are $n\times n$ matrices.  If $DF=FD$ prove that $\det
+A=\det(DG-FE)$.
+\item If ${\bf F}$ is a field, prove that every ideal in ${\bf F}[x]$
+is principal.
+\enum
+\heading{August 1984}
+
+\num 
+\item Let $V$ be a finite dimensional vector space.  Can $V$ have
+three distinct proper subspaces $W_0$, $W_1$ and $W_2$ such that
+$W_0\subseteq W_1$, $W_0+W_2=V$, and $W_1\cap W_2=\{0\}$?
+\item Let $n$ be a positive integer.  Define
+\begin{eqnarray*}
+G=\m \{A: \mbox{ $A$ is an $n\times n$ matrix with only integer
+entries and $\det A\in\{-1,+1\}$\}},\\
+H=\m \{A: \mbox{ $A$ is an invertible $n\times n$ matrix and both $A$
+and $A^{-1}$ have only integer entries}\}.
+\end{eqnarray*} 
+Prove $G=H$.
+\item Let $V$ be the vector space over $\R$ of all $n\times n$
+matrices with entries from $\R$.
+\num
+\item Prove that $\{I,A,A^2\cd A^n\}$ is linearly dependent for all
+$A\in V$.
+\item Let $A\in V$.  Prove that $A$ is invertible if and only if $I$
+belongs to the span of $\{A, A^2\cd A^n\}$.
+\enum
+\item Is every $n\times n$ matrix over the field of complex numbers
+similar to a matrix of the form $D+N$, where $D$ is a diagonal matrix,
+$N^{n-1}=0$, and $DN=ND$?  Why?
+\enum
+
+\heading{January 1985}
+\num \item \num
+\item Let $V$ and $W$ be vector spaces and let $T$ be a linear
+operator from $V$ into $W$.  Suppose that $V$ is finite-dimensional.
+Prove $\mathop{\rm rank}(T)+\mathop{\rm nullity}(T)=\dim V$.
+\item  Let $T\in L(V,V)$, where $V$ is a finite dimensional vector space.
+(For a linear operator $S$ denote by ${\mathcal N}(S)$ the null space and
+by ${\mathcal R}(S)$ the range of $S$.)
+\num
+\item Prove there is a least natural number $k$ such that
+${\mathcal N}(T^{k})= {\mathcal N}(T^{k+1})={\mathcal N}(T^{k+2})\cdots$  Use
+this $k$ in the rest of this problem.
+\item Prove that ${\mathcal R}(T^k)={\mathcal R}(T^{k+1})={\mathcal
+R}(T^{k+2})\cdots$
+\item Prove that ${\mathcal N}(T^k)\cap {\mathcal R}(T^k)=\{0\}$.
+\item Prove that for each $\alpha\in V$ there is exactly one vector in
+$\alpha_1\in{\mathcal N}(T^k)$ and exactly one vector $\alpha_2\in{\mathcal
+R}(T^k)$ such that $\alpha=\alpha_1+\alpha_2$.
+\enum
+\enum
+\item Let $\fe $ be a field of characteristic~0 and let 
+$$
+W=\left\{A=[a_{ij}]\in \fe^{n\times n}: \tr(A)=\sum_{i=1}^na_{ii}=0\right\}.
+$$
+For $i,j=1\cd n$ with $i\ne j$, let $E_{ij}$ be the $n\times n$ matrix
+with $(i,j)$-th entry~1 and all the remaining entries~0.  For $i=2\cd
+n$ let $E_{i}$ be the $n\times n$ matrix with $(1,1)$~entry $-1$,
+$(i,i)$-th entry~$+1$, and all remaining entries~0.  Let
+$$
+S=\left\{E_{ij}: i,j=1\cd n\ \mbox{and}\ i\ne j\right\}\cup
+\left\{E_{i}: i=2\cd n\right\}.
+$$
+[{\sc Note:} You can assume, without proof, that $S$ is a linearly
+independent subset of $\fe^{n\times n}$.]
+\num
+\item Prove that $W$ is a subspace of $\fe^{n\times n}$ and that
+$W=\mathop{\rm span}(S)$.  What is the dimension of $W$?
+\item Suppose that $f$ is a linear functional on $\fe^{n\times n}$ such
+that 
+\num
+\item $f(AB)=f(BA)$, for all $A,B\in \fe^{n\times n}$.
+\item $f(I)=n$, where $I$ is the identity matrix in $\fe^{n\times n}$.
+\enum
+\enum
+Prove that $f(A)=\tr(A)$ for all $A\in\fe^{n\times n}$.
+\enum
+\heading{August 1985}
+\num
+\item Let $V$ be a vector space over $\cn$.  Suppose that $f$ and $g$
+are linear functionals on $V$ such that the functional
+$$
+h(\alpha)=f(\alpha)g(\alpha)\quad \mbox{for all}\quad \alpha\in V
+$$
+is linear.  Show that either $f=0$ or $g=0$.
+\item Let $C$ be a $2\times2$ matrix over a field $\fe$.  Prove: There
+exists matrices $C=AB-BA$ if and only if $\tr(C)=0$.
+\item Prove that if $A$ and $B$ are $n\times n$ matrices from $\cn$ and
+$AB=BA$, then $A$ and $B$ have a common eigenvector.
+\enum
+
+\heading{January 1986}
+\num
+\item Let $\fe$ be a field and let $V$ be a finite dimensional vector
+space over $\fe$.  Let $T\in L(V,V)$.  If $c$ is an eigenvalue of $T$,
+then prove there is a nonzero linear functional $f$ in $L(V,\fe)$ such
+that $T^*f=cf$. (Recall that $T^*f=fT$ by definition.)
+\item Let $\fe$ be a field, $n\ge 2$ be an integer, and let $V$ be the
+vector space of $n\times n$ matrices over \fe.  Let $A$ be a fixed
+element of $V$ and let $T\in L(V,V)$ be defined by $T(B)=AB$.
+\num
+\item Prove that $T$ and $A$ have the same minimal polynomial.
+\item If $A$ is diagonalizable, prove, or disprove by counterexample,
+that $T$ is diagonalizable.
+\item Do $A$ and $T$ have the same characteristic polynomial?  Why or
+why not?
+\enum
+\item Let $M$ and $N$ be $6\times 6$ matrices over $\cn$, both having
+minimal polynomial $x^3$.
+\num
+\item Prove that $M$ and $N$ are similar if and only if they have the
+same rank.
+\item Give a counterexample to show that the statement is false if 6
+is replaced by 7.
+\enum
+\enum
+\heading{ August 1986} 
+\num
+\item Give an example of two $4\times 4$ matrices that are not similar
+but that have the same minimal polynomial.
+\item Let $(a_1,a_2\cd a_n)$ be a nonzero vector in the real
+$n$-dimensional space~$\R^n$ and let $P$ be the hyperplane
+$$
+\left\{(x_1,x_2\cd x_n)\in \R^n: \sum_{i=1}^na_ix_i=0\right\}.
+$$
+Find the matrix that gives the reflection across $P$.
+\enum
+
+\heading{January 1987}
+\num
+\item
+Let $V$ and $W$ be finite-dimensional vector spaces and let $T:V\to
+W$ be a linear transformation.  Prove that that exists a basis $\mathcal
+A$ of $V$ and a basis $\mathcal B$ of $W$ so that the matrix $[T]_{\mathcal A,
+B}$ has the block form $\[\begin{array}{cc}I&0\\0&0\end{array}\]$.
+\item Let $V$ be a finite-dimensional vector space and let $T$ be a
+diagonalizable linear operator on~$V$.  Prove that if $W$ is a
+$T$-invariant subspace then the restriction of $T$ to $W$ is also
+diagonalizable. 
+\item Let $T$ be a linear operator on a finite-dimensional vector.
+Show that if $T$ has no cyclic vector then, then there exists an
+operator $U$ on $V$ that commutes with $T$ but is {\em not} a
+polynomial in $T$.
+\enum
+
+\heading{August 1987}
+\num
+\item Exhibit two real matrices with no real eigenvalues which have
+the same characteristic polynomial and the same minimal polynomial but
+are not similar.
+\item Let $V$ be a vector space, not necessarily finite-dimensional.
+Can $V$ have three distinct proper subspaces $A$, $B$, and $C$, such
+that $A\subset B$, $A+C=V$, and $B\cap C=\{0\}$?
+\item Compute the minimal and characteristic polynomials of the
+following matrix.  Is it diagonalizable?
+$$
+\[\begin{array}{cccc}5&-2&0&0\\ 6&-2&0&0\\0&0&0&6\\0&0&1&-1\end{array}\]
+$$
+\enum
+\heading{August 1988}
+\num\item\num
+	\item Prove that if $A$ and $B$ are linear transformations on
+an $n$-dimensional vector space with $AB=0$, then $r(A)+r(B)\le n$
+where $r(\cdot)$ denotes rank.
+	\item For each linear transformation $A$ on an $n$-dimensional
+vector space, prove that there exists a linear transformation $B$ such
+that $AB=0$ and $r(A)+r(B)=n$.
+\enum
+\item \num\item Prove that if $A$ is a linear transformation such that
+$A^2(I-A)=A(I-A)^2=0$, then $A$ is a projection.
+\item Find a non-zero linear transformation so that $A^2(I-A)=0$ but
+$A$ is {\em not\/} a projection.
+\enum
+\item If $S$ is an $m$-dimensional vector space of an $n$-dimensional
+vector space $V$, prove that $S^\circ$, the annilihilator  of $S$, is
+an $(n-m)$-dimensional subspace of $V^*$.
+\item Let $A$ be the $4\times 4$ real matrix
+$$
+A=\[\begin{array}{cccc} 1&1&0&0\\-1&-1&0&0\\-2&-2&2&1\\ 1&1&-1&0\end{array}\]
+$$
+\num
+\item Determine the rational canonical form of $A$.
+\item Determine the Jordan canonical form of $A$.
+\enum
+\enum
+
+\heading{January 1989}
+\num \item
+Let $T$ be the linear operator on $\R^3$ which is represented by
+$$
+A=\[\begin{array}{ccc}1&1&-1\\1&1&-1\\1&0&0\end{array}\]
+$$
+in the standard basis.  Find matrices $B$ and $C$ which represent
+respectively, in the standard basis, a diagonalizable linear operator $D$
+and a nilpotent linear operator $N$ such that $T=D+N$ and $DN=ND$.
+\item Suppose $T$ is a linear operator on $\R^5$ represented in some
+basis by a diagonal matrix with entries $-1$, $-1$, 5, 5, 5 on the
+main diagonal.
+\num
+\item Explain why $T$ can not have a cyclic vector.
+\item Find $k$ and the invariant factors $p_i=p_{\alpha_i}$ in the
+cyclic decomposition $\R^5=\bigoplus_{i=1}^k Z(\alpha_i;T)$.
+\item Write the rational canonical form for $T$.
+\enum
+\item Suppose that $V$ in an $n$-dimensional vector space and $T$ is a
+linear map on $V$ of rank~1.  Prove that $T$ is nilpotent or
+diagonalizable. 
+\enum
+
+\heading{August 1989}
+
+\num
+\item Let $M$ denote an $m\times n$ matrix with entries in a field.
+Prove that
+\begin{eqnarray*}
+\m\mbox{the maximum number of linearly independent rows of $M$}\\
+=\m\mbox{the maximum number of linearly independent columns of $M$}
+\end{eqnarray*}
+(Do not assume that $\mathop{\rm rank} M=\mathop{\rm rank}M^t$.)
+\item Prove the Cayley-Hamilton Theorem, using only basic properties
+of determinants.
+\item Let $V$ be a finite-dimensional vector space.  Prove there a linear
+operator $T$ on $V$ is invertible if and only if the constant term in
+the minimal polynomial for $T$ is non-zero.
+\item\num\item Let
+$M=\[\begin{array}{ccc}0&1&0\\0&0&1\\1&1&-1\end{array}\]$. Find a
+matrix $T$ (with entries in $\cn$) such that $T^{-1}MT$ is diagonal, or
+prove that such a matrix does not exist.
+\item Find a matrix whose minimal polynomial is $x^2(x-1)^2$, whose
+characteristic polynomial is $x^4(x-1)^3$ and whose rank is $4$.
+\enum
+\item Suppose $A$ and $B$ are linear operators on the same
+finite-dimensional vector space $V$.  Prove that $AB$ and $BA$ have
+the same characteristic values.
+\item Let $M$ denote an $n\times n$ matrix with entries in a field
+$\fe$.  Prove that there is an $n\times n$ matrix $B$ with entries in
+$\fe$ so that $\det(M+tB)\ne 0$ for every non-zero $t\in\fe$.
+\enum
+
+\heading{January 1990}
+\num
+\item Let $W_1$ and $W_2$ be subspaces of the finite dimensional
+vector space $V$.  Record and prove a formula which relates $\dim
+W_1$, $\dim W_2$, $\dim (W_1+W_2)$, $\dim (W_1\cap W_2)$.
+\item Let $M$ be a symmetric $n\times n$ matrix with real number
+entries.  Prove that there is an $n\times n$ matrix $N$ with real
+entries such that $N^3=M$.
+\item TRUE OR FALSE. (If the statement is true, then prove it.  If
+the statement is false, then give a counterexample.)  If two
+nilpotent matrices have the same rank, the same minimal polynomial
+and the same characteristic polynomial, then they are similar.
+\enum
+
+\heading{August 1990} 
+\num
+\item Suppose that $T:V\to W$ is a injective linear transformation
+over a field $\fe$.  Prove that $T^*:W^*\to V^*$ is surjective.
+(Recall that $V^*=L(V,\fe)$ is the vector space of linear
+transformations from $V$ to $\fe$.)
+\item If $M$ is the $n\times n$ matrix
+$$
+M=\[\begin{array}{ccccc} x& a & a& \cdots & a \\
+			a & x & a& \cdots &a \\
+			a & a & x& \cdots &a\\
+			\vdots& \vdots&\vdots&\ddots&\vdots\\
+			a & a& a& \cdots &x\end{array}\]
+$$
+then prove that $\det M=[x+(n-1)a](x-a)^{n-1}$. 
+\item Suppose that $T$ is a linear operator on a finite dimensional
+vector space $V$ over a field $\fe$.  Prove that $T$ has a cyclic
+vector if and only if
+$$
+\{U\in L(V,V): TU=UT\}=\{f(T): f\in \fe[x]\}.
+$$
+\item Let $T:\R^4\to \R^4$ be given by
+$$
+T(x_1,x_2,x_3,x_4)=(x_1-x_4,x_1,-2x_2-x_3-4x_4,4x_2+x_3)
+$$
+\num
+\item Compute the characteristic polynomial of $T$.
+\item Compute the minimal polynomial of $T$.
+\item The vector space $\R^4$ is the direct sum of two proper
+$T$-invariant subspaces.  Exhibit a basis for one of these
+subspaces.
+\enum
+\enum
+
+\heading{January 1991} 
+
+\num
+\item
+Let $V$, $W$, and $Z$ be finite dimensional vector spaces over the
+field $\fe$ and let $f:V\to W$ and $g:W\to Z$ be linear
+transformations.  Prove that
+$$
+\mathop{\rm nullity}(g\circ f)\le \mathop{\rm nullity}( f)
++\mathop{\rm nullity}( g)
+$$
+\item Prove that 
+$$
+\det\[\begin{array}{ccc}A&0&0\\B&C&D\\ 0&0&E\end{array}\]
+	=\det A\det C\det E
+$$
+where $A$, $B$, $C$, $D$ and $E$ are all square matrices.
+\item Let $A$ and $B$ be $n\times n$ matrices with entries on the
+field $\fe$ such that $A^{n-1}\ne0$, $B^{n-1}\ne 0$, and $A^n=B^n=0$.
+Prove that $A$ and $B$ are similar, or show, with a counterexample,
+that $A$ and $B$ are not necessarily similar.
+\enum
+
+\heading{August 1991}
+
+\num
+\item Let $A$ and $B$ be $n\times n$ matrices with entries from $\R$.
+Suppose that $A$ and $B$ are similar over $\cn$.  Prove that they are
+similar over $\R$.
+\item Let $A$ be an $n\times n$ with entries from the field $\fe$.
+Suppose that $A^2=A$.  Prove that the rank of $A$ is equal to the
+trace of $A$.
+\item TRUE OR FALSE. (If the statement is true, then prove it.  If the
+statement is false, then give a counterexample.) Let $W$ be a vector
+space over a field $\fe$ and let $\theta:V\to V'$ be a fixed
+surjective transformation. If $g:W\to V'$ is a linear transformation
+then there is linear transformation $h:W\to V$ such that $\theta\circ
+h=g$.  \enum
+
+\heading{January 1992}
+
+\num\item
+Let $V$ be a finite dimensional vector space and $A\in L(V,V)$.
+\num \item Prove that there exists and integer $k$ such that
+$\mathop{\rm ker}A^k=\mathop{\rm ker}A^{k+1}=\cdots$
+\item Prove that there exists an integer $k$ such that $V=\mathop{\rm
+ker}A^k\oplus \mathop{\rm image} A^k$.
+\enum
+\item Let $V$ be the vector space of $n\times n$ matrices over a field
+$\fe$, and let $T:V\to V^*$ be defined by $T(A)(B)=\tr(A^tB)$.  Prove
+that $T$ is an isomorphism.
+\item Let $A$ be an $n\times n$ matrix and $A^k=0$ for some $k$.  Show
+that $\det(A+I)=1$.
+\item Let $V$ be a finite dimensional vector sauce over a field $\bf F$,
+and $T$ a linear operator on $V$.  Suppose the minimal and
+characteristic polynomials of of $T$ are the same power of an
+irreducible polynomial $p(x)$.  Show that no non-trivial
+$T$-invariant subspace of $V$ has a $T$-invariant complement. 
+\enum
+\heading{August 1992}
+\num
+\item Let $V$ be the vector space of all $n\times n$ matrices over a
+field $\fe$, and let $B$ be a fixed $n\times n$ matrix that is not of
+the form $cI$.  Define a linear operator $T$ on $V$ by $T(A)=AB-BA$.
+Exhibit a not-zero element in the kernel of the transpose of $T$.
+\item Let $V$ be a finite dimensional vector space over a field $\fe$
+and suppose that $S$ and $T$ are triangulable operators on $V$.  If
+$ST=TS$ prove that $S$ and $T$ have an eigenvector in common.
+\item Let $A$ be an $n\times n$ matrix over $\cn$.  If trace $A^i=0$
+for all $i>0$, prove that $A$ is nilpotent.
+\enum
+\heading{January 1993}
+
+\num
+\item Let $V$ be a finite dimensional vector space over a field $\fe$,
+and let $T$ be a linear operator on $V$ so that $\mathop{\rm
+rank}(T)=\mathop{\rm rank}(T^2)$.  Prove that $V$ is the direct sum of
+the range of $T$ and the null space of $T$.
+
+\item Let $V$ be the vector space of all $n\times n$ matrices over a
+field $\fe$, and suppose that $A$ is in $V$.  Define $T:V\to V$ by
+$T(AB)=AB$.  Prove that $A$ and $T$ have the same characteristic
+values.
+\item Let $A$ and $B$ be $n\times n$ matrices over the complex numbers.
+\num
+\item Show that $AB$ and $BA$ have the same characteristic values.
+\item Are $AB$ and $BA$ similar matrices?
+\enum
+\item Let $V$ be a finite dimensional vector space over a field of
+characteristic~0, and $T$ be a linear operator on $V$ so that
+$\tr(T^k)=0$ for all $k\ge1$, where $\tr(\cdot)$ denotes the trace
+function.  Prove that $T$ is a nilpotent linear map.
+\item Let $A=[a_{ij}]$ be an $n\times n$ matrix over the field of
+complex numbers such that
+$$
+|a_{ii}|>\sum_{j\ne i}|a_{ij}|\qquad \mbox{for} \qquad i=1\cd n.
+$$
+Then show that $\det A\ne 0$. ($\det$ denotes the determinant.)
+\item Let $A$ be an $n\times n$ matrix, and let $\mathop{\rm adj}(A)$
+denote the adjoint of $A$.  Prove the rank of $\mathop{\rm adj}(A)$ is
+either $0$, $1$, or $n$.
+\enum
+
+
+\heading{August 1993}
+
+\num
+\item Let 
+$$
+A=\[\begin{array}{ccc}1&3&3\\3&1&3\\-3&-3&-5\end{array}\]
+$$
+\num
+\item Determine the rational canonical form of $A$.
+\item Determine the Jordan canonical form of $A$.
+\enum
+\item If 
+$$
+A=\[\begin{array}{ccc}0&1&0\\0&0&1\\0&0&0\end{array}\],
+$$
+then prove that there does not exist a matrix with $N^2=A$.
+\item Let $A$ be a real $n\times n$ matrix which is symmetric, i.e.
+$A^{ t}=A$.  Prove that $A$ is diagonalizable.
+\item Give an example of two nilpotent matrices $A$ and $B$ such that 
+\num
+\item $A$ is not similar to $B$,
+\item $A$ and $B$ have the same characteristic polynomial,
+\item $A$ and $B$ have the same minimal polynomial, and
+\item $A$ and $B$ have the same rank.
+\enum
+\enum
+
+\heading{January 1994}
+\num
+\item Let $A$ be an $n\times n$ matrix over a field $\fe$.  Show that
+$\fe^n$ is the direct sum of the null space and the range of $A$ if
+and only if $A$ and $A^2$ have the same rank.
+\item Let $A$ and $B$ be $n\times n$ matrices over a field $\fe$.
+\num
+\item Show $AB$ and $BA$ have the same eigenvalues.
+\item Is $AB$ similar to $BA$?  (Justify your answer).
+\enum
+\item Given an exact sequence of finite-dimensional vector spaces 
+$$
+0 \stackrel{T_0}{\longrightarrow} V_1
+ \stackrel{T_1}{\longrightarrow} V_2
+\stackrel{T_2}{\longrightarrow}
+ \cdots 
+\stackrel{T_{n-2}}{\longrightarrow} V_{n-1}
+\stackrel{T_{n-1}}{\longrightarrow} V_{n}
+\stackrel{T_{n}}{\longrightarrow}0
+$$
+that is the range of $T_i$ is equal to the null space of $T_{i+1}$,
+for all $i$.  What is the value of $\displaystyle
+\sum_{i+1}^n(-1)^i\dim(V_i)$? (Justify your answer).
+\item Let $\fe$ be a field with $q$ elements and $V$ be a
+$n$-dimensional vector space over $\fe$.
+\num
+\item Find the number of elements in $V$.
+\item Find the number of bases of $V$.
+\item Find the number of invertible linear operators on $V$.
+\enum
+\item Let $A$ and $B$ be $n\times n$ matrices over a field $\fe$.
+Suppose that $A$ and $B$ have the same trace and the same minimal
+polynomial of degree $n-1$.  Is $A$ similar to $B$?  (Justify your
+answer.)
+\item Let $A=[a_{ij}]$ be an $n\times n$ matrix with $a_{ij}=1$ for
+all $i$ and $j$.  Find its characteristic and minimal polynomial.
+
+\enum
+
+\heading{August 1994}
+
+\num
+\item Give an example of a matrix with real entries whose
+characteristic polynomial is $x^5-x^4+x^2-3x+1$.
+\item TRUE or FALSE. (If true prove it.  If false give a
+counterexample.) Let $A$ and $B$ be $n\times n$ matrices with minimal
+polynomial $x^4$.  If $\mathop{\rm rank} A=\mathop{\rm rank}B$, and 
+$\mathop{\rm rank}A^2=\mathop{\rm rank}B^2$, then $A$ and $B$ are
+similar.
+\item Suppose that $T$ is a linear operator on a finite-dimensional
+vector space $V$ over a field $\fe$.  Prove that the characteristic
+polynomial of $T$ is equal to the minimal polynomial of $T$ if and
+only if
+$$
+\{U\in L(V,V):TU=UT\}=\{f(T):f\in \fe[x]\}.
+$$
+\enum
+
+\heading{January 1995}
+\num\item \num
+	\item Prove that if $A$ and $B$ are $3\times 3$ matrices over
+a field $\fe$, a necessary and sufficient condition that $A$ and $B$ be
+similar over $\fe$ is that that have the same characteristic and the
+same minimal polynomial.
+\item Give an example to show this is not true for $4\times 4$ matrices.
+\enum
+\item Let $V$ be the vector space of $n\times n$ matrices over a
+field.  Assume that $f$ is a linear functional on  $V$ so that
+$f(AB)=f(BA)$ for all $A,B\in V$, and $f(I)=n$.  Prove that $f$ is the
+trace functional.
+\item Suppose that $N$ is a $4\times 4$ nilpotent matrix over $\fe$
+with minimal polynomial $x^2$.  What are  the possible rational
+canonical forms for $n$?
+\item Let $A$ and $B$ be $n\times n$ matrices over a field $\fe$.
+Prove that $AB$ and $BA$ have the same characteristic polynomial.
+\item Suppose that $\bf V$ is an $n$-dimensional vector space over $\fe$,
+and $T$ is a linear operator on $\bf V$ which has $n$ distinct
+characteristic values.  Prove that if $S$ is a linear operator on $\bf
+V$ that commutes with $T$, then $S$ is a polynomial in $T$.
+\enum
+
+\heading{August 1995}
+\num
+\item Let $A$ and $B$ be $n\times n$ matrices over a field $\fe$.
+Show that $AB$ and $BA$ have the same characteristic values in $\fe$.
+\item Let $P$ and $Q$ be real  $n\times n$ matrices so that $P+Q=I$
+and $\mathop{\rm rank}(P)+\mathop{\rm rank}(Q)=n$.  Prove that $P$ and
+$Q$ are projections. ({\sc Hint:} Show that if $Px=Qy$ for some
+vectors $x$ and $y$,  then $Px=Qy=0$.)
+\item Suppose that $A$ is an  $n\times n$ real, invertible matrix.
+Show that $A^{-1}$ can be expressed as a polynomial in $A$ with real
+coefficients and with degree at most $n-1$.
+\item Let
+$$
+A=\[\begin{array}{cccc}1&1&0&0\\1&1&1&0\\1&1&1&1\\1&1&1&1\end{array}\].
+$$
+Determine the rational canonical form and the Jordan canonical form
+of $A$.
+\item \num\item Give an example of two $4\times 4$ nilpotent matrices
+which have the same minimal polynomial but are not similar.
+\item Explain why $4$ is the smallest value that can be chosen for the
+example in part (a), i.e. if $n\le 3$, any two nilpotent matrices
+with the same minimal polynomial are similar.
+
+\enum
+\enum
+
+\heading{January 1996}
+
+\num
+\item Let ${\mathcal P}_3$ be the vector space of all with coefficients
+from $\R$ and of degree at most~$3$.  Define a linear
+$T:\mathcal{P}_3\to \mathcal{P}_3$ by $(Tf)(x)=f(2x-6)$.  Is $T$
+diagonalizable? Explain why.
+
+\item Let $R$ be the ring of $n\times n$ matrices over the real
+numbers.  Show that $R$ does not have any two sided ideals other than
+$R$ and $\{0\}$.
+
+\item Let $V$ be  a finite dimensional vector space and $A: V\to V$ a
+linear map.  Suppose that $V=U\oplus W$ is  a direct sum decomposition
+of $V$ into subspaces invariant under $A$.  Let $V^*$ be the dual
+space of $V$ and let $A^t: V^*\to V^*$ be the transpose of $A$.
+\num
+\item Show that $V^*$ has a direct sum decomposition $V^*=X\oplus Y$
+so that $\dim X=\dim U$ and $\dim Y =\dim W$ and both $X$ and $Y$ are
+invariant under $A^t$.
+\item Using part (a), or otherwise, prove that $A$ and $A^t$ are similar.
+\enum
+\enum
+
+\heading{August 1996}
+\num
+\item Consider a linear operator on the space of $3\times 3$ matrices
+defined by $S(A)=A-A^t$ where $A^t$ is the transpose of $A$.  Compute
+the rank of $A$.
+\item Let $V$ and $W$ be finite dimensional vector spaces over a field
+$\mathbb F$, let $V^*$ and $W^*$ be the dual spaces to $V$ and $W$ and
+let $T: V\to W$ be a linear map.
+\num 
+\item Give the definition of $V^*$ and show $\dim V=\dim V^*$.
+\item If $S\subset V$ define the annihilator $S^\circ$ of $S$ in $V^*$
+and prove it is a subspace of $V^*$.
+\item Define the adjoint map $T^*: W^* \to V^*$.
+\item Show that $\ker(T)^\circ = \image T^*$
+\enum
+
+
+\item Suppose that $A$ is a $3\times 3$ real orthogonal matrix, i.e.,
+$A^t=A^{-1}$, with determinant~$-1$.  Prove that $-1$ is an eigenvalue
+of for $A$.
+\enum
+
+\heading{January 1997}
+\num
+\item Let $M_{n\times n}$ be the vector space of all $n\times n$ real
+matrices.
+\num 
+\item Show that every $A\in M_{n\times n}$ is similar to its transpose.
+\item Is there a single invertible $S\in M_{n\times n}$ so that
+$SAS^{-1}=A^t$ for all $A\in M_{n\times n}$?
+\enum
+\item Let $A$ be a $3\times 3$ matrix over the real numbers and assume
+that $f(A)=0$ where $f(x)=x^2(x-1)^2(x-2)$.  Then give a complete
+list of the possible values of $\det(A)$.
+\item Show that for every polynomial $p(x)\in \mathbb{C}[x]$ of degree
+$n$ there is a polynomial $q(x)$ of degree $\le n$ so that
+$$
+(x+1)^nf\Big(\frac{x-1}{x+1}\Big)=p(x).
+$$
+{\sc Hint:} Let $\mathcal{P}_n$ be the vector space of polynomials of
+degree $\le n$ and for each $f(x)\in \mathcal{P}_n$ define
+$(Sf)(x):=(x+1)^nf\big((x-1)/(x+1)\big)$.  Show that $S$ maps
+$\mathcal{P}_n\to \mathcal{P}_n$ and is linear.  What is the null
+space of $S$?
+\enum
+\pagebreak
+
+
+\heading{August 1997}
+
+\num
+\item Let $V$ be a finite dimensional vector space and $L\in
+\operatorname{Hom}(V,V)$ such that $L$ and $L^2$ have the same
+nullity.  Show that $V=\operatorname{ker} L\oplus \operatorname{Im}L$.
+\item Let $A$ be an $n\times n$ matrix and $n>1$.  Show that
+$\text{adj}(\text{adj}(A))=\det(A^{n-2})A$.
+\item Let $A=\displaystyle\[\begin{matrix} 1&1&0\\ -1&2&1\\
+3&-6&6\end{matrix}\]$. Cmpute the rational cononical form and the
+Jordon canonical form of $A$.
+\item Let $A$ be an $n\times n$ real matrix such that $A^3=A$.  Show
+that the rank of $A$ is greater than or equal to the trace of $A$.
+\item Let $A=[a_{ij}]$ be a real $n\times n$ matrix with positive
+diagonal entries such that 
+$$
+a_{ii}a_{jj}>\sum_{k\ne i}|a_{ik}|\sum_{l\ne j}|a_{il}|
+$$ 
+for all $i,j$.  Show that
+$\det(A)>0$. {\sc Hint:} Show first that $\det(A)\ne 0$.
+\enum
+\heading{January 1998}
+\num
+\item For any nonzero scalar $a$, show that there are no real $n\times
+n$ matrices $A$ and $B$ such that $AB-BA=aI$.
+\item Let $V$ be a vector space over the rational numbers $\mathbb Q$
+with $\dim V=6$ and let $T$ be a nonzero linear operator on $V$.
+\num
+\item If $f(T)=0$ for $f(x)=x^6+36 x^4-6x^2+12$, determine the
+rational canonical form for $T$ (and prove your result is correct).
+\item Is $T$ an automorphism of $V$?  If so describe $T^{-1}$; if not
+describe why not.
+\enum
+\item Suppose that $A$ and $B$ are diagonalizable matrices over a
+field $\mathbb F$. Prove that they are simultaneously diagonalizable,
+that is there there exists an invertible matrix $P$ such that
+$PAP^{-1}$ and $PBP^{-1}$ are both diagonal, if and only if $AB=BA$.
+\enum
+%\pagebreak
+
+
+
+\heading{August 1998}
+
+\num
+\item $V$ be a finite dimensional vector space and let $W$ be a
+subspace of $V$.  Let $\mathcal{L}(V)$ the set of linear operators on
+$V$ and set $Z=\{T\in \mathcal{L}(V): W\subseteq
+\operatorname{ker}(T)\}$. Prove that $Z$ is a subspace of
+$\mathcal{L}(V)$ and compute its dimension in terms of the the
+dimensions of $V$ and $W$.
+
+\item Let $V$ be a finite dimensional vector space and
+$\mathcal{L}(V)$ the set of linear operators on $V$.  Suppose $T\in
+\mathcal{L}(V)$.  Suppose that
+$$
+V=V_1\oplus V_2\oplus \cdots \oplus V_r
+$$
+where $V_i$ is $T$ invariant for each $i\in \{1,\dots,k\}$.  Let
+$m(x)$ be the minimal polynomial of $T$ and $m_i(x)$ the minimal
+polynomial of $T$ restricted to $V_i$, for each $i\in \{1,\dots,k\}$.
+How is $m(x)$ related to the set $\{m_1(x),\dots,m_r(x)\}$.
+
+\item Let $V$ be a finite dimensional vector space and
+$\mathcal{L}(V)$ the set of linear operators on $V$.  Let $S,T\in
+\mathcal{L}(V)$ so that $S+T=I$ and $\dim \operatorname{range} S +\dim
+\operatorname{range} T=\dim V$.  Prove that $V=\operatorname{range}
+S\oplus \operatorname{range} T$ and that $ST=TS=0$.
+
+\item Let $A$ and $B$ be be $n\times n$ matrices.  Suppose that $A^k$
+and $B^k$ have the same minimal polynomials and the same
+characteristic polynomials for $k=1,2,$ and $3$.  Must $A$ and $B$ be
+similar?  If so prove it.  If not, give a counterexample.
+\enum 
+
+\heading{January 1999}
+
+\num
+\item Let $V$ be a finite dimensional vector space and let $T: V\to V$
+be a linear transformation which is not zero and is not an
+isomorphism.  Prove there is exists a linear transformation $S$ so that
+$ST=0$, but $TS\ne 0$.
+
+\item Let $T$ be a linear operator on the finite dimensional vector
+space $V$.  Prove that if $T^2=T$, then $V=\operatorname{ker} T\oplus
+\operatorname{image} T$.
+
+\item Let $S$ and $T$ be $5\times 5$ nilpotent matrices with
+$\operatorname{rank}S =\operatorname{rank}T$ and
+$\operatorname{rank}S^2 =\operatorname{rank}T^2$.  Are $S$ and $T$
+necessarily similar?  Prove or give a counterexample.
+
+\item Let $A$ and $B$ be $n\times n$ matrices over $\mathbb C$ with
+$AB=BA$.  Prove $A$ and $B$ have a common eigenvector.  Do $A$ and $B$
+have a common eigenvalue.
+\enum
+
+
+\heading{August 1999}
+\num
+\item Make a list, sa long as possible, of square matrices over
+$\mathbb C$ such that
+\num 
+\item Each matrix on the list has characteristic polynomial
+$(x-2)^4(x-3)^4$,
+\item Each matrix on the list has minimal polynomial $(x-2)^2(x-3)^2$,
+and,
+\item No matrix on the list is similar to a matrix occurring elsewhere
+on the list.
+\enum
+Demonstrate that your list has all the desired attributes.
+
+\item Let $A$ and $B$ be nilpotent matrices over $\mathbb C$.
+\num 
+\item
+Prove that if $AB=BA$, then $A+B$ is nilpotent.
+\item
+Prove that $I-A$ is invertible.
+\enum
+
+\item
+Let $V$ be a finite dimensional vector space. Recall that for
+$X\subseteq V$ the set $X^\circ $ is defined to be $\{ f\ |\ \text{$f$
+is a linear functional of $V$ and $f(x)=0$ for all $x\in X$}$.  Let
+$U$ and $W$ be subspaces of $V$.  Prove the following
+\num
+\item $(U+W)^\circ =U^\circ\cap W^\circ$.
+\item $U^\circ + W^\circ =(U\cap W)^\circ$.
+\enum
+
+\enum
+
+
+
+
+
+\heading{Some Other Problems}
+
+\num
+\item {\bf This is a very basic and important fact.}
+Let $V$ be a finite dimensional vector space and $f$ and $g$ two
+linear functionals on $V$.  If $\ker f=\ker g$ show  $g$ is a scalar
+multiple of $f$.
+\item This problem makes explicit some facts that are used several times in
+solving some of the problems above.
+\num \item  Prove that if $V$ is a finite dimensional vector space
+over the field $\fe$ and $T\in L(V,V)$ and $V$ is cyclic for $T$ that any
+$S\in L(V,V)$ that commutes with $T$ is a polynomial in $T$.  That is $ST=
+TS$ implies that $S=p(T)$ for some $p(x)\in\fe[x]$.  {\sc Hint:} Let $\dim
+V=n$.  Then because $V$ is cyclic for $T$ there is a vector $v_0\in V$ so
+that $v_0, Tv_0\cd T^{n-1}v_0$ is a basis for $V$.  Thus there are
+scalars $a_0,a_1\cd a_{n-1}$ so that $Sv_0=a_0v_0+a_1Tv_0+a_2T^2v_0+\cdots
++a_{n-1}T^{n-1}v_0$.  Then letting $p(x)=a_0+a_1x+a_2x^2+\cdots
+a_{n-1}x^{n-1}$ we have $Sv_0=p(T)v_0$.  Now use that $S$ commutes with $T$
+(and thus also $p(T)$) to show that $S T^iv_0=p(T)T^iv_0$ for $i=0,1\cd
+n-1$.  Thus the two linear maps $S$ and $p(T)$ agree on a basis, whence
+are equal.
+\item If the minimal polynomial $f(x)$ of $T$ has $\mathop{\rm deg}
+f(x)=\dim V$ then $V$ is cyclic for $T$.  {\sc Hint:} I don't know any
+particularly easy way to do this.  The basic idea is to factor
+$f(x)=p_1(x)^{k_1}\cdots p_l(x)^{k_l}$ into powers of primes and consider 
+the corresponding primary decomposition $V=\ker(p_1(T)^{k_1})\oplus\cdots\oplus
+\ker(p_l(T)^{k_l})$ and show that if $\mathop{\rm deg} f(x)=\dim V$ then
+each of the primary factors $\ker(p_i(T)^{k_i})$ is cyclic (this in turn uses
+that each of the $\ker(p_i(T)^{k_i})$ is a sum of cyclic subspaces).  Now
+let $v_i$ be a cyclic for $T$ in $\ker(p_i(T)^{k_i})$ for $i=1\cd l$.  Then
+show the vector $v_0=v_1+v_2+\cdots +v_l$ is cyclic for $T$. An alternative is 
+to use Smith normal form.
+\enum
+\item Let $\lambda_1,\lambda_2\cd \lambda_n$ be distinct elements of the
+field $\fe$.  Then the matrix
+$$
+A=\[\begin{array}{cccc}1&1&\cdots&1\\ 
+\lambda_1& \lambda_2&\cdots &\lambda_n\\
+\lambda_1^2&\lambda_2^2&\cdots &\lambda_n^2\\
+\vdots&\vdots&\ddots&\vdots\\
+\lambda_1^{n-1}&\lambda_2^{n-1}&\cdots&\lambda_n^{n-1}\end{array}\]
+$$
+is invertible.  {\sc Hint:}  If $A$ is singular then it has rank less than
+$n$ and thus there is a nontrivial linear relation between the rows of $A$.
+This would in turn imply that there is a nonzero polynomial $p(x)$ of
+degree $\le n-1$ that had the $n$ scalars $\lambda_1,\lambda_2\cd
+\lambda_n$ as roots. But this is impossible.
+\item {\bf This is another set of facts that anyone who has had a graduate
+linear algebra class should know.} Let $D$ be a diagonal matrix that has
+all its diagonal elements distinct.  That is,
+$$
+D=\mathop{\rm diag}(\lambda_1,\lambda_2\cd \lambda_n):=
+\[\begin{array}{cccc}\lambda_1&0&\cdots&0\\
+			0&\lambda_2&\cdots&0\\
+			\vdots&\vdots&\ddots&\vdots\\
+			0&0&\cdots&\lambda_n\end{array}\]
+\qquad\mbox{where $\lambda_i\ne\lambda_j$ for $i\ne j$.}
+$$
+Then show 
+\num
+\item The only matrices that commute with $D$ are diagonal matrices.
+\item If $C$ is any other diagonal matrix, 
+then $C$ is a polynomial in $D$.
+\item If $A$ is any matrix that commutes with $D$, then $A$ is a polynomial
+in $D$.
+\item There is a cyclic vector for $T$.  {\sc Hint:}  Let $e_1\cd e_n$ be
+the standard coordinate vectors.  Then as $D$ is diagonal
+$De_i=\lambda_ie_i$.  Let $v=a_1e_1+a_2e_2+\cdots+a_ne_n$.  Then show that
+$v$ is a cyclic vector for $D$ if and only if $a_i\ne0$ for all $i$\/ (one
+way to do this is use the last problem).  In particular
+$v=e_1+e_2+\cdots+e_n$ is a cyclic vector for $T$. Or use that the 
+minimal and characteristic polynomials for $D$ are the same, together with 
+problem 2 above.
+\enum
+\item This is another standard problem.  Let $V$ be a finite dimensional
+vector space over a field $\fe$ and let $T\in L(V,V)$.  Let
+$\lambda$ be an eigenvalue of $T$ and let $V_\lambda:=\{v\in V:Tv=\lambda
+v\}$ be the corresponding eigenspace.
+\num \item Let $S\in L(V,V)$ commute with $T$.  Then show that $V_\lambda$
+is invariant under $S$.  (That is show $v\in V_\lambda$ implies $Sv\in
+V_\lambda$.)  
+\item Show that if $A$ and $B$ are  $n\times n$ matrices over the complex
+numbers that commute they have a common eigenvector.  {\sc Hint:} As $A$ is a
+complex matrix it has at least one eigenvalue $\lambda$.  Let $V_\lambda$
+be the corresponding eigenspace.  Then by what we have just done
+$V_\lambda$ is invariant under $B$.  But then the restriction of $B$ to
+$V_\lambda$ has an eigenvector in $V_\lambda$.  
+\item This is a different way of looking at Problem~4 above.  Assume 
+$V$ has an basis of eigenvectors $e_1,e_2\cd e_n$ of eigenvectors of $T$,
+that is $Te_i=\lambda e_i$.  Also assume the eigenvalues are distinct:
+$\lambda_i\ne\lambda_j$ for $i\ne j$.  Then
+show if $S$ commutes with $T$ then for some scalars $c_i$ there holds
+$Se_i=c_ie_i$, and thus $S$ is also diagonal in the basis $e_1\cd e_n$.
+{\sc Hint:}  Let $V_{\lambda_i}:=\{v:Te_i=\lambda_iv\}$.  Then by the
+assumptions $V_{\lambda_i}$ is one dimensional with basis $e_i$.  
+Part~(a) of this problem then implies that $V_{\lambda_i}$ is invariant
+under $S$.  As $V_{\lambda_i}$ is one dimensional this in turn implies
+$e_i$ is an eigenvector of $S$.
+\enum
+\enum
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
