@@ -52,7 +52,7 @@ both from the textbook and other sources, will be distributed and updated as the
 course progresses.  Students will solve and submit as many solutions as
 possible.  In addition, for each homework assignment, two students will be
 responsible for typing up correct solutions to the homework problems using LaTeX
-and submitting them to the [class GitHub repository][]. 
+and submitting them to the [Math700Homework][] repository. 
 (See [Git and GitHub](#git-and-github) below.)  Homework is worth 50% of the
 course grade.
 
@@ -206,5 +206,4 @@ this repository, or in the [Math700Homework][] repository.
 [GitHub help pages]: https://help.github.com/
 [the main reason Git was created]: http://youtu.be/4XpnKHJAok8
 [Math700Homework]: https://github.com/williamdemeo/Math700Homework
-[class GitHub repository]: https://github.com/williamdemeo/Math700Homework
 [15 Git minute tutorial]: http://try.github.io/levels/1/challenges/1
