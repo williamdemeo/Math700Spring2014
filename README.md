@@ -1,8 +1,6 @@
 Math 700: Linear Algebra, Spring 2014
 =====================================
 
-Basic info
-----------
 **Instructor:** William DeMeo  
 **Email:** williamdemeo@gmail.com  
 **Office:** LeConte College, Room 314C  
@@ -138,8 +136,8 @@ to maintain and collaborate on projects.  You are not expected to have heard of
 Git or GitHub before this class, and I am more than willing to work with any
 student who has limited experience with or knowledge of computers or computing.
 
-If you are new to Git, please try [this 15 minute tutorial].  Also consult
-[git--the simple guide][] and the [GitHub help pages][]
+If you are new to Git, please try [this 15 minute tutorial][].  Also, the
+[git--the simple guide][] and the [GitHub help pages][] are excellent.
 
 Git is very easy to use, and you only need the very basics for what we will do
 in this class.  But [the main reason Git was created][] (by Linus Torvalds) was
@@ -161,15 +159,15 @@ For each assignment, the two designated problem solvers should submit their work
 as follows: 
 
 1. Solve the problems. (Try to make sure they are correct. Consult each other
-   and, if necessary, the professor.)
-2. Type up your solutions using [LaTeX][]. (Save them in a single file called,
-   say, Homework01.tex.) 
+   and the prof if necessary.)
+2. Type up your solutions using [LaTeX][]. (Save them in a single file; e.g.,
+   Homework01.tex.) 
 3. [Set up Git][] on your computer.
-4. Use Git to [Fork][] our Math700Homework repository to your computer. (I will
-   show you how to do this in class.)
+4. Use Git to [Fork][] our Math700Homework repository to your computer. (I'll
+   demonstrate this in class.)
 5. Copy your solution file into the directory Math700Homework/Solutions.
 6. [Commit][] your changes.
-7. Submit a [pull request][]. (I will show you how to do this in class.)
+7. Submit a [pull request][]. (I'll demonstrate this in class.)
 
 **Resources:**
 + [The basics of Git in 15 minutes][]
@@ -195,4 +193,4 @@ as follows:
 [LaTeX Guide]: http://en.wikibooks.org/wiki/LaTeX
 [Git--the simple guide]: http://rogerdudler.github.io/git-guide/
 [GitHub help pages]: https://help.github.com/
-[the reason Git was created]: http://youtu.be/4XpnKHJAok8
+[the main reason Git was created]: http://youtu.be/4XpnKHJAok8
