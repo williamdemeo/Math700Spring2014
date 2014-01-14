@@ -39,7 +39,7 @@ Textbook
 <a href="http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9789400726352&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-a-Beginning-Graduate-Student-Ought-to-Know%2FJonathan-S-Golan%2Fe%2F9789400726352">
 <IMG border=0 src="http://images.barnesandnoble.com/images/229900000/229902005.JPG" ></a><IMG border=0 style="width: 50px;" src="http://ad.linksynergy.com/fs-bin/show?id=xEro7OMQWE4&bids=239662.9789400726352&type=2&subid=0" >
 
-**Other references:**
+**Other references:**  
 [Linear Algebra and Its Applications](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9780471751564&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FLinear-Algebra-and-Its-Applications%2FPeter-D-Lax%2Fe%2F9780471751564), Peter Lax.  
 [Finite Dimensional Vector Spaces](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.9781614272816&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FFinite-Dimensional-Vector-Spaces%2FPR-Halmos%2Fe%2F9781614272816), Paul Halmos.  
 [Matrix Analysis](http://click.linksynergy.com/link?id=xEro7OMQWE4&offerid=239662.2580521386329&type=2&murl=http%3A%2F%2Fsearch.barnesandnoble.com%2FMatrix-Analysis%2FRoger-A-Horn%2Fe%2F2580521386329), Horn and Johnson.   
@@ -139,8 +139,9 @@ to maintain and collaborate on projects.  You are not expected to have heard of
 Git or GitHub before this class, and I am more than willing to work with any
 student who has limited experience with or knowledge of computers or computing.
 
-If you are new to Git, please try the [15 Git minute tutorial][].  Also, the
-[git--the simple guide][] and the [GitHub help pages][] are excellent.
+If you are new to Git, please try the [15 Git minute tutorial][].  Also,
+[git--the simple guide][] and the [GitHub help pages][] are excellent.  For
+detailed comprehensive documentation see http://git-scm.com/doc.
 
 Git is very easy to use, and you only need the very basics for what we will do
 in this class.  But [the main reason Git was created][] (by Linus Torvalds) was
@@ -166,10 +167,13 @@ joint work as follows:
 2. Type up your solutions using [LaTeX][] and save in a single file, e.g.,
    Homework01.tex.   
 3. [Set up Git][] on your computer.   
-4. [Fork][] the [Math700Homework][] repository to your computer. (to be demonstrated in class)   
+4. ~~[Fork][]~~ [Clone][] the [Math700Homework][] repository to your computer. (to be demonstrated in class)   
 5. Copy your solution file into the directory Math700Homework/Solutions on your computer.   
 6. [Commit][] your changes.   
-7. Submit a [pull request][]. (to be demonstrated in class)  
+7. ~~Submit a [pull request][]~~ [Push][] your changes to the GitHub repository. (to be demonstrated in class)  
+
+(I've decided to make all registered students collaborators, so we can "clone
+and push" instead of "fork and pull-request.")
 
 **Resources:**
 + [Learn Git in 15 minutes][]  
@@ -194,6 +198,7 @@ this repository, or in the [Math700Homework][] repository.
 [Sage]: http://en.wikipedia.org/wiki/Sage_(mathematics_software)
 [vast array]: http://en.wikipedia.org/wiki/Sage_(mathematics_software)#Software_packages_contained_in_Sage
 [Fork]: https://help.github.com/articles/fork-a-repo
+[Clone]: http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository
 [pull request]: https://help.github.com/articles/using-pull-requests
 [Set up Git]: https://help.github.com/articles/set-up-git
 [Commit]: http://rogerdudler.github.io/git-guide/
@@ -209,3 +214,5 @@ this repository, or in the [Math700Homework][] repository.
 [Math700Homework]: https://github.com/williamdemeo/Math700Homework
 [15 Git minute tutorial]: http://try.github.io/levels/1/challenges/1
 [the fa&ccedil;ade]: http://williamdemeo.github.io/LinearAlgebra
+[Push]: https://help.github.com/articles/create-a-repo#step-3-push-your-commit
+[push]: https://help.github.com/articles/create-a-repo#step-3-push-your-commit
