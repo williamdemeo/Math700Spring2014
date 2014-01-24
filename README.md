@@ -4,7 +4,7 @@ Math 700: Linear Algebra, Spring 2014
 **Instructor:** William DeMeo  
 **Email:** williamdemeo@gmail.com  
 **Office:** LeConte College, Room 314C  
-**Office hours:** Wednesday 14--15, Friday 11--12 and 14--15, and by appointment.  
+**Office hours:** Wednesday 14-15, Friday 11-12 and 14-15, and by appointment.  
 **Class meeting times:** MW, 3:55--5:10, LeConte, Room 310.  
 **Course Webpage:** [this page](http://github.com/williamdemeo/LinearAlgebra) or [the fa&ccedil;ade][].    
 **Homework Repo:** http://github.com/williamdemeo/Math700Homework
